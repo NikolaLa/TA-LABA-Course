@@ -17,7 +17,6 @@ public class InsertionSort {
 
            }
     }
-
         System.out.print(array);
 }
 }
