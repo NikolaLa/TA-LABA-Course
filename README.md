@@ -8,6 +8,7 @@ The output of the hello where when compiling in terminal writing says Hello + na
 
 ### Terminal command - Linux
 ```javac --version``` - checking
+
 ![image](https://github.com/user-attachments/assets/e1fade87-0c1d-47fb-b23e-c64a9dfac215)
 
 ```sudo update-alternatives --config javac``` switching version from the installed
