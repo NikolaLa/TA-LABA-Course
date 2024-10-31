@@ -21,5 +21,6 @@ The output of the hello where when compiling in terminal writing says Hello + na
 
 ## InsertionSort.java
 Is an implementation of the insertion sort algorithm simply using "for loop" not recursive.
-array[] -> is predefine array
-temp -> is a temporary variable that changes in the loop and is used for swapping 
+
+- array[] -> is predefine array
+- temp -> is a temporary variable that changes in the loop and is used for swapping 
