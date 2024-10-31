@@ -25,3 +25,5 @@ Is an implementation of the insertion sort algorithm simply using for loop not r
 ### Variable
 - array[] -> is predefine array
 - temp -> is a temporary variable that changes in the loop and is used for swapping 
+
+#2 Homework
