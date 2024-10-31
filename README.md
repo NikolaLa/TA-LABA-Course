@@ -1,7 +1,7 @@
 # TA-LABA-Course
 Making a test document
 
-# How this project works
+# 1 Homeworks
 
 ## HelloWorld.java
 The output of the hello where when compiling in terminal writing says Hello + name
