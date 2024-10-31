@@ -7,11 +7,11 @@ Making a test document
 The output of the hello where when compiling in terminal writing says Hello + name
 
 ### Terminal command - Linux
-```javac --version``` - checking
+```javac --version``` - checking java compiler version
 
 ![image](https://github.com/user-attachments/assets/e1fade87-0c1d-47fb-b23e-c64a9dfac215)
 
-```sudo update-alternatives --config javac``` switching version of java compiler (works on version java too)
+```sudo update-alternatives --config javac``` switching version of java compiler (works on version java too) that is instaled
 
 
 ```java HelloWorld.java Nikola``` output "Hello Nikola"
