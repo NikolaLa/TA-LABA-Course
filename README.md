@@ -18,8 +18,6 @@ The output of the hello where when compiling in terminal writing says Hello + na
 
 ![image](https://github.com/user-attachments/assets/21c95190-936f-46be-ad95-97b7a4485a0c)
 
-###common Error
-
 
 ## InsertionSort.java
 Is an implementation of the insertion sort algorithm simply using "for loop" not recursive.
