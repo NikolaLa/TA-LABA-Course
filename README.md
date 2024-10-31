@@ -1,7 +1,7 @@
 # TA-LABA-Course
 Making a test document
 
-# 1 Homeworks
+# Homework nr 1
 
 ## HelloWorld.java
 The output of the hello where when compiling in terminal writing says Hello + name
@@ -26,4 +26,4 @@ Is an implementation of the insertion sort algorithm simply using for loop not r
 - array[] -> is predefine array
 - temp -> is a temporary variable that changes in the loop and is used for swapping 
 
-#2 Homework
+# Homework nr 2
