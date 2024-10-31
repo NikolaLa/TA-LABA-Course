@@ -5,6 +5,15 @@ Making a test document
 This project is about the sorting algorithm Insertion sort
 
 # How this project works
-##HelloWorld
+
+## HelloWorld.java
+The output of the hello where when compiling in terminal writing says Hello + name
+
+### Terminal commend
+```javac --version```
+
+
+## InsertionSort.java
+Is an implementation of the insertion sort algorithm simply using "for loop" not recursive.
 
 # Links
