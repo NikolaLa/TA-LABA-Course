@@ -24,7 +24,7 @@ Is an implementation of the insertion sort algorithm simply using for loop not r
 
 ### Steps
   1. Loading array
-  2. Taking the first/next position in array 0
+  2. Taking the first/next number and setting temp 
   3. Seeking the smallest number in the array
   4. If a smaller number is found swap places
   5. repeat 1.
@@ -39,7 +39,7 @@ Merge sort is used for large databases but needs more resources
 ### Steps
  1. Loading array
  2. Divide the array into two equal parts
-   2a.if is an odd number the part on the left should take an additional number
+   2a.if it is an odd number the part on the left should take an additional number
  3. Divide the left part into smaller parts till either single numbers or pairs remain
 
 ### Variable
