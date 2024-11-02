@@ -1,9 +1,9 @@
 # TA-LABA-Course
 Making a test document
 
-# Homework nr 1
+#  $${\color{orange}Homework nr 1 \space }$$
 
-## HelloWorld.java
+## $${\color{lightgreen}HelloWorld.java \space }$$
 The output of the hello where when compiling in terminal writing says Hello + name
 
 ### Terminal command - Linux
