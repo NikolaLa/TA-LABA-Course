@@ -3,7 +3,7 @@ Making a test document
 
 #  $${\color{orange}Homework nr 1 \space }$$
 
-## $${\color{lightgreen}HelloWorld.java \space }$$
+## $${\color{lightgreen}HelloWorld.java }$$
 The output of the hello where when compiling in terminal writing says Hello + name
 
 ### Terminal command - Linux
