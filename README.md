@@ -28,7 +28,7 @@ Is an implementation of the insertion sort algorithm simply using for loop not r
 - temp -> is a temporary variable that changes in the loop and is used for swapping 
 
 
-##MergeSort.java
+## MergeSort.java
 - array[] -> predefine array
 - 
 
