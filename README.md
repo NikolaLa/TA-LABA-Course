@@ -49,4 +49,4 @@ Merge sort is used for large databases but needs more resources
 - LeftMerge ()
 - RightMerge ()
 
-# Homework nr 2
+#  $${\color{orange}Homework \space  nr \space  2 \space }$$
