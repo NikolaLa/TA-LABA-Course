@@ -3,7 +3,7 @@ package animal;
 import java.util.Date;
 
 public class Parents {
-    //stat
+    //field
     String PetName;
     int ageMonth;
     Date Birthday;

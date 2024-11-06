@@ -2,7 +2,7 @@ package animal;
 
 //Animals in the Zoo Child Class of PlacesInZoo
 public class Mammal{
-    //stat
+    //field
     AnimalBasicInfo animalBasicInfo;
     Parents parents;
     //construction
