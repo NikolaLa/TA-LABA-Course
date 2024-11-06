@@ -1,15 +1,19 @@
 //class used for setting date in calender
 package other;
+
+import java.util.Date;
+
 public class Schedule {
-    private String dataTime;
+    //state
+    public Date dateTime;
+    public String name;
 
-    public Schedule(){
-
+    //constuctor
+    public Schedule(String name,Date dateTime){
+        this.name = name;
+        this.dateTime = dateTime;
     }
-    public void getSchedule(){
+    //methode
 
-    }
-    public void setSchedule(){
 
-    }
 }

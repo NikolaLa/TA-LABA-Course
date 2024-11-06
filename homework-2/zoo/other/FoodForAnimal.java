@@ -1,10 +1,13 @@
 //class used for setting date in calender
 package other;
 public class FoodForAnimal {
-    private String dataTime;
+    //stat
+    boolean Fresh = true;
 
+    //constructor
     public FoodForAnimal(){
 
     }
+    //methode
 
 }

@@ -1,4 +1,5 @@
 package animal;
 
-public class Reptile extends AnimalBasicInfo{
+public class Reptile{
+    AnimalBasicInfo animalBasicInfo;
 }

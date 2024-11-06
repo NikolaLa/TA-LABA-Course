@@ -1,4 +1,6 @@
 package animal;
 
-public class Bird extends AnimalBasicInfo{
+public class Bird{
+    AnimalBasicInfo animalBasicInfo;
+    Parents parent;
 }
