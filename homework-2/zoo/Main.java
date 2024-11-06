@@ -5,9 +5,11 @@
  * Test Project nr2 from first assigment for Course
  * Theme ZOO OOP
  */
-public class Main {
+import animal.AnimalBasicInfo;
 
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
+        AnimalBasicInfo a = new AnimalBasicInfo();
 }
