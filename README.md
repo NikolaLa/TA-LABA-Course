@@ -2,7 +2,7 @@
 
 #  $${\color{orange}Homework \space  nr \space  1 \space }$$
 
-[READMEHomework1](test)Link to Separate ReadmeHomework 1
+[Homework-1/READMEHomework1](test)Link to Separate ReadmeHomework 1
 
 #  $${\color{orange}Homework \space  nr \space  2 \space }$$
 
