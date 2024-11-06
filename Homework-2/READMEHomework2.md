@@ -5,10 +5,10 @@
 
 ## Classes
 |Nr. | Class | Parent/Child Class |Description |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 |1.| PlaceInZoo     |Parrent Class | Contains information about existing places in zoo like|
 |2.| Worker           |Parent Class |Containt Information about|
-|3.| Vet             |Parent Classs|Containt Information about Veterin that visit the zoo for appointment|
+|3.| Vet             |Parent Classs| Containt Information about Veterin that visit the zoo for appointment|
 |4.| Schedule       |Parent Class | Containt Information about|
 |5.| Magazine       |Parent Class| Containt Information about|
 |6.| Seller         |Parent Class|Containt Information about|
