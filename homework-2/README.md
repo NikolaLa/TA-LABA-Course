@@ -8,15 +8,15 @@
 ### zoo/animal
 |Nr. | Class | Parent/Child Class |Description |
 | --- | --- | --- | --- |
-|1.| Amphibie     |Parrent Class | Contains information about existing places in zoo like|
-|2.| AnimalBasicInfor          |Parent Class |Containt Information about|
-|3.| Bird           |Parent Classs| Containt Information about Veterin that visit the zoo for appointment|
-|4.| Clasification       |Parent Class | Containt Information about|
-|5.| Fish  |Parent Class| Containt Information about|
-|6.| Invertebrates         |Parent Class|Containt Information about|
-|7.| Mammal          |Child Class| that contains information about an animal|
-|8.| Parents           |Child Class | Containt Information about|
-|9.| Reptile       | Child Class|Containt Information about|
+|1.| Amphibie             |Child Class | Class that allows to create an object of animal like frogs|
+|2.| AnimalBasicInfor      |Child Class |Containt Information about animals universal information|
+|3.| Bird                 |Child Classs| Containt Information about animals that are birds like parrots, ducks|
+|4.| Classification       |Parent Class | Containt Information about animals beloging Domain, |
+|5.| Fish                |Parent Class| Class that allows to create an object of animal like goldfish or shark|
+|6.| Invertebrates      |Parent Class|Containt Information about an animal that are invertebretes|
+|7.| Mammal            |Child Class| that contains information about an animal that are mammals like mouse, elephant|
+|8.| Parents           |Parent Class | Containt Information about parent of animal if has any|
+|9.| Reptile           |Child Class|Containt Information about animals that are reptile|
 
 ### zoo/contractor
 |Nr. | Class | Parent/Child Class |Description |
@@ -39,6 +39,8 @@
 
 
 ## Diagram WIP
+
+![image](https://github.com/user-attachments/assets/2ced705d-dd9d-4d47-a5cb-66bf322f2127)
 
 ## Legend Diagram
 " + " public
