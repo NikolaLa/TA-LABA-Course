@@ -34,15 +34,16 @@
 |4.| Vet           | Contains Information about Veterinan that's visit the zoo|
 |5.| Employee       | Contains Information about that work at the zoo|
 |6.| Volunteer       | Contains of Information about a volunteer that works from time to time at the zoo |
+|7.| Account           | Contains information about existing places in the zoo like|
+|8.| WorkerInfo       | Contains of basic information about people who work at zoo like first name|
 
 ### zoo/other
 
 |Nr. | Class |Description |
 | ---  | --- | --- |
-|1.| Account           | Contains information about existing places in the zoo like|
-|2.| PlaceInZoo        | Containts Information about Places that exist in the zoo like lion run, magazine|
-|3.| CalenderDate        | Containts Information about made appointments like paying bills, and groups that visit the zoo|
-|4.| WorkerInfo       | Contains of basic information about people who work at zoo like first name|
+|1.| PlaceInZoo        | Containts Information about Places that exist in the zoo like lion run, magazine|
+|2.| CalenderDate        | Containts Information about made appointments like paying bills, and groups that visit the zoo|
+
 
 ### zoo/ware
 
