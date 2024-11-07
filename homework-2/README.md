@@ -16,15 +16,17 @@
 |6.| Reptile           |Containt Information about animals that are reptile|
 
 ### zoo/animal
-|Nr. | Class  |Description |
+
+|Nr. | Class |Description |
 | --- | --- | --- |
 
 |1.| AnimalBasicInfor      |Containt Information about animals universal information|
 |2.| Classification       | Content of Information about animals belonging to Domain, kingdom, Clyde, class |
 |3.| Parents              | Content Information about the parent of the animal if has any|
-|4.| AnimalHealth          |Containt Information about the health of animals if they got some medicine or recent illness |
+|4.| AnimalHealth         |Containt Information about the health of animals if they got some medicine or recent illness |
 
 ### zoo/contractor
+
 |Nr. | Class |Description |
 | ---  | --- | --- |
 |1.| Client           | Contains information about existing places in zoo like|
@@ -51,6 +53,8 @@
 |3.| MeatForAnimals      | Containt Information about Meat buyed for carnivorous animals|
 |4.| Tools        | Containt Information about tools needed in zoo|
 |5.| Vegetable        | Containt Information about vegetable that was buyed for animals|
+
+
 ## Diagram WIP
 ### releated to buying 
 ![image](https://github.com/user-attachments/assets/4bfdd3ee-2436-4a2b-8617-ef56b4831e61)
@@ -58,11 +62,10 @@
 ![image](https://github.com/user-attachments/assets/5002c299-584a-4cd3-91e7-f44b0b94711d)
 
 ### other
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/942f5e63-8280-4b01-a398-f5bd7e691b39)
 
+### Whole diagram
+![image](https://github.com/user-attachments/assets/06e2fdad-373d-4d0f-93cc-f88648805416)
 
-## Legend Diagram
-" + " public
-" - " private
 
 
