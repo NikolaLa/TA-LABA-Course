@@ -9,7 +9,7 @@
 |Nr. | Class  |Description |
 | --- | --- | --- |
 |1.| Amphibie              | Class that allows to create an object of animal like frogs|
-|2.| Bird                 | Contain information about animals that are birds like parrots, ducks|
+|2.| Bird                 | Contains information about animals that are birds like parrots, ducks|
 |3.| Fish                | Class that allows to creation an object of animal like goldfish or shark|
 |4.| Invertebrates      |Containt Information about an animal that are invertebretes|
 |5.| Mammal            | that contains information about an animal that are mammals like mouse, elephant|
@@ -19,10 +19,10 @@
 |Nr. | Class  |Description |
 | --- | --- | --- |
 
-|2.| AnimalBasicInfor      |Containt Information about animals universal information|
-|4.| Classification       | Content of Information about animals belonging to Domain, kingdom, Clyde, class |
-|8.| Parents              | Content Information about the parent of the animal if has any|
-|9.| AnimalHealth          |Containt Information about the health of animals if they got some medicine or recent illness |
+|1.| AnimalBasicInfor      |Containt Information about animals universal information|
+|2.| Classification       | Content of Information about animals belonging to Domain, kingdom, Clyde, class |
+|3.| Parents              | Content Information about the parent of the animal if has any|
+|4.| AnimalHealth          |Containt Information about the health of animals if they got some medicine or recent illness |
 
 ### zoo/contractor
 |Nr. | Class |Description |
@@ -38,9 +38,9 @@
 |Nr. | Class |Description |
 | ---  | --- | --- |
 |1.| Account           | Contains information about existing places in zoo like|
-|2.| BuyingForZoo       |Containt Information about|
-|3.| PlaceInZoo        | Containt Information about|
-|4.| Schedule        | Containt Information about|
+|2.| BuyingForZoo       |Containt Information about purchased items for zoo like food cleaning utilities|
+|3.| PlaceInZoo        | Containt Information about Places that exist in the zoo like lion run,magazine|
+|4.| CalenderDate        | Containt Information about made appointment like paying bills, groups that visit the zoo|
 
 ### zoo/ware
 
@@ -52,8 +52,14 @@
 |4.| Tools        | Containt Information about tools needed in zoo|
 |5.| Vegetable        | Containt Information about vegetable that was buyed for animals|
 ## Diagram WIP
+### releated to buying 
+![image](https://github.com/user-attachments/assets/4bfdd3ee-2436-4a2b-8617-ef56b4831e61)
+### realated to animals
+![image](https://github.com/user-attachments/assets/5002c299-584a-4cd3-91e7-f44b0b94711d)
 
-![image](https://github.com/user-attachments/assets/2ced705d-dd9d-4d47-a5cb-66bf322f2127)
+### other
+![Uploading image.png…]()
+
 
 ## Legend Diagram
 " + " public
