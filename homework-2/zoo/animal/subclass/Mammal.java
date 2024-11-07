@@ -28,7 +28,9 @@ public class Mammal extends AnimalBasicInfo {
 //        this.parents = parents;
 //    }
     //methode
-
+    public void eat() {
+    System.out.println("dinner time");
+}
 
     public String getPetName() {
         return petName;
