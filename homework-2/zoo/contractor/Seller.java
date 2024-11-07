@@ -1,7 +1,5 @@
 package contractor;
 
-import other.Account;
-
 public class Seller {
     //field
     private String name;

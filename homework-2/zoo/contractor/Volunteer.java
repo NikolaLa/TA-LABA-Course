@@ -1,7 +1,5 @@
 package contractor;
 
-import other.ContractorInfo;
-
 import java.util.Date;
 
 public class Volunteer extends ContractorInfo {

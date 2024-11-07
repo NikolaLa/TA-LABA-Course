@@ -1,6 +1,5 @@
 package contractor;
 
-import other.Account;
 import other.CalenderDate;
 
 //This class is a parent class and descript people who work in the zoo

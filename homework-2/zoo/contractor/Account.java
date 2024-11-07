@@ -1,5 +1,5 @@
 //class used for setting date in calender
-package other;
+package contractor;
 public class Account {
     //fields
     private String dataTime;
