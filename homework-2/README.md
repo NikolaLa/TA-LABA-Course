@@ -17,7 +17,7 @@
 
 ### zoo/animal
 |Nr. | Class  |Description |
-| ---  | --- | --- |
+| --- | --- | --- |
 
 |2.| AnimalBasicInfor      |Containt Information about animals universal information|
 |4.| Classification       | Content of Information about animals belonging to Domain, kingdom, Clyde, class |
@@ -25,11 +25,11 @@
 |9.| AnimalHealth          |Containt Information about the health of animals if they got some medicine or recent illness |
 
 ### zoo/contractor
-|Nr. | Class | Parent/Child Class |Description |
+|Nr. | Class |Description |
 | ---  | --- | --- |
 |1.| Client           | Contains information about existing places in zoo like|
-|2.| ClientGroup           |Containt Information about|
-|3.| Seller             | Content of Information about Veterin that visit the zoo for appointment|
+|2.| ClientGroup       | Containt Information about|
+|3.| Seller           | Content of Information about Veterin that visit the zoo for appointment|
 |4.| Vet           | Content of Information about|
 |5.| Worker       | Content of Information abContaintout|
 
