@@ -50,10 +50,9 @@
 |Nr. | Class |Description |
 | ---  | --- | --- |
 |1.| BuyWare           | Contains information about existing places in zoo like|
-|2.| Fruit       |Containt Information about|
-|3.| MeatForAnimals     | Containt Information about Meat buyed for carnivorous animals|
-|4.| Tools        | Containt Information about tools needed in zoo|
-|5.| Vegetable        | Containt Information about vegetable that was buyed for animals|
+|2.| MeatForAnimals    | Containt Information about Meat buyed for carnivorous animals|
+|3.| Tools            | Containt Information about tools needed in zoo|
+|4.| Vegetable        | Containt Information about vegetable that was buyed for animals|
 
 
 ## Diagram WIP
