@@ -9,12 +9,28 @@ public class Account {
     public Account(){
 
     }
+
+    public Account(String dataTime, int number) {
+        this.dataTime = dataTime;
+        this.number = number;
+    }
+
     //methode
-    public void getDataTime(){
 
+
+    public String getDataTime() {
+        return dataTime;
     }
-    public void setDataTime(){
 
+    public void setDataTime(String dataTime) {
+        this.dataTime = dataTime;
     }
 
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
 }

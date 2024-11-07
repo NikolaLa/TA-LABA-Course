@@ -5,17 +5,35 @@ import animal.Parents;
 
 public class Amphibie extends AnimalBasicInfo {
     //field
-    String water;
-    Parents parents;
+    private String water;
+    private String locationNeed; //Parents parents; // can contain parrents
 
     //constructor
-    Amphibie(String water){
-        this(water);
-        this.water = "swamps";
+    public Amphibie(){
+        this("default","default");
+
+        this.water = "default";
     }
-    Amphibie( Parents parents){
-        this.parents = parents;
+    public Amphibie(String water, String locationNeed){
+        this.water = water;
+        this.locationNeed = locationNeed;
     }
+
     //Methode
 
+    public String getWater() {
+        return water;
+    }
+
+    public void setWater(String water) {
+        this.water = water;
+    }
+
+    public String getLocationNeed() {
+        return locationNeed;
+    }
+
+    public void setLocationNeed(String locationNeed) {
+        this.locationNeed = locationNeed;
+    }
 }

@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Client {
     //field
-    Date buyDate;
-    int count;
+    private Date buyDate;
+    private int count;
 
     //constructor
     Client(Date buyDate,int count){
@@ -15,4 +15,19 @@ public class Client {
 
     //methode
 
+    public Date getBuyDate() {
+        return buyDate;
+    }
+
+    public void setBuyDate(Date buyDate) {
+        this.buyDate = buyDate;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
 }

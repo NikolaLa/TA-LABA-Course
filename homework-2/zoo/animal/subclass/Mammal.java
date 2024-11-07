@@ -3,18 +3,38 @@ package animal.subclass;
 import animal.AnimalBasicInfo;
 import animal.Parents;
 
-//Animals in the Zoo Child Class of PlacesInZoo
-public class Mammal{
+
+public class Mammal extends AnimalBasicInfo {
     //field
-    AnimalBasicInfo animalBasicInfo;
-    Parents parents;
+    private String petName;
+    //Parents parents; //can have parents
+
+
     //construction
-    Mammal(AnimalBasicInfo animalBasicInfo){
-        this.animalBasicInfo = animalBasicInfo;
+
+    public Mammal(){
+        this.petName = "Fluffy";
     }
-    Mammal(AnimalBasicInfo animalBasicInfo, Parents parents){
-        this.animalBasicInfo = animalBasicInfo;
-        this.parents = parents;
+    public Mammal(String petName){
+        this.petName = petName;
     }
+
+//    Mammal(AnimalBasicInfo animalBasicInfo){
+//
+//        this.animalBasicInfo = animalBasicInfo;
+//    }
+//    Mammal(AnimalBasicInfo animalBasicInfo, Parents parents){
+//        this.animalBasicInfo = animalBasicInfo;
+//        this.parents = parents;
+//    }
     //methode
+
+
+    public String getPetName() {
+        return petName;
+    }
+
+    public void setPetName(String petName) {
+        this.petName = petName;
+    }
 }
