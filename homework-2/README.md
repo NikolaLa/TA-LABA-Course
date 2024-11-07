@@ -22,7 +22,7 @@
 |Nr. | Class | Parent/Child Class |Description |
 | --- | --- | --- | --- |
 |1.| Client     |Parrent Class | Contains information about existing places in zoo like|
-|2.| ClientGroup           |Parent Class |Containt Information about|
+|2.| ClientGroup           |Child Class |Containt Information about|
 |3.| Seller             |Parent Classs| Containt Information about Veterin that visit the zoo for appointment|
 |4.| Vet       |Parent Class | Containt Information about|
 |5.| Worker       |Parent Class| Containt Information about|
