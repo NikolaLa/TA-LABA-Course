@@ -1,4 +1,7 @@
-package animal;
+package animal.subclass;
+
+import animal.AnimalBasicInfo;
+import animal.Parents;
 
 //Animals in the Zoo Child Class of PlacesInZoo
 public class Mammal{

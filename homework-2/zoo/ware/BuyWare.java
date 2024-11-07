@@ -1,11 +1,11 @@
 //class used for setting date in calender
-package other;
-public class BuyingForZoo {
+package ware;
+public class BuyWare {
     //fields
     private String dataTime;
     private float amount;
     //constructore
-    public BuyingForZoo(){
+    public BuyWare(){
 
     }
     //methode

@@ -5,19 +5,25 @@ import other.PlacesInZoo;
 //Animals in the Zoo Child Class of PlacesInZoo
 public class AnimalBasicInfo{
     //field
-    String name;
-    String howMany;
-    PlacesInZoo placesInZoo;
+    private String name;
+    private String howMany; // not mistake that is String animals like ant are counted in colonies,
     boolean inZoo;
-    Classification classification;
+
     //construction
-    AnimalBasicInfo(String name, String howMany){
+    public AnimalBasicInfo(String name, String howMany){
         this.name = name;
         this.howMany = howMany;
+        this.inZoo = true ;
     }
-    //methode
-    public void Feeding(){
 
+    //methode
+    public String getName(){
+    return name;
+    }
+    public String setName(String name)
+    {
+        this.name = name;
+        return name;
     }
 
 

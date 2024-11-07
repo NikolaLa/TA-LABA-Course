@@ -1,4 +1,6 @@
-package animal;
+package animal.subclass;
+
+import animal.AnimalBasicInfo;
 
 public class Reptile{
     //field
