@@ -34,22 +34,21 @@
 |4.| Vet           | Contains Information about Veterinan that's visit the zoo|
 |5.| Employee       | Contains Information about that work at the zoo|
 |6.| Volunteer       | Contains of Information about a volunteer that works from time to time at the zoo |
-|7.| WorkerInfo       | Contains of basic information about people who work at zoo like first name|
 
 ### zoo/other
 
 |Nr. | Class |Description |
 | ---  | --- | --- |
 |1.| Account           | Contains information about existing places in the zoo like|
-|2.| BuyingForZoo       |Containts Information about purchased items for the zoo like food cleaning utilities|
-|3.| PlaceInZoo        | Containts Information about Places that exist in the zoo like lion run, magazine|
-|4.| CalenderDate        | Containts Information about made appointments like paying bills, and groups that visit the zoo|
+|2.| PlaceInZoo        | Containts Information about Places that exist in the zoo like lion run, magazine|
+|3.| CalenderDate        | Containts Information about made appointments like paying bills, and groups that visit the zoo|
+|4.| WorkerInfo       | Contains of basic information about people who work at zoo like first name|
 
 ### zoo/ware
 
 |Nr. | Class |Description |
 | ---  | --- | --- |
-|1.| BuyWare           | Contains information about existing places in zoo like|
+|1.| BuyWare           | Containts Information about purchased items for the zoo like food cleaning utilities|
 |2.| MeatForAnimals    | Containt Information about Meat buyed for carnivorous animals|
 |3.| Tools            | Containt Information about tools needed in zoo|
 |4.| Vegetable        | Containt Information about vegetable that was buyed for animals|
