@@ -17,6 +17,7 @@ public class Main {
         Mammal mammal = new Mammal();
         Reptile reptile = new Reptile();
         mammal.setPetName("birdie");
+
         System.out.println(mammal.getPetName());
     }
 
