@@ -2,6 +2,8 @@
 
 #  $${\color{orange}Homework \space  nr \space  2 \space }$$
 # Theme Zoo
+## Project Requierment WIP
+
 
 ## Classes
 
@@ -13,7 +15,7 @@
 |3.| Fish                | Class that allows to creation an object of animal like goldfish or shark|
 |4.| Invertebrates      |Containt Information about an animal that are invertebretes|
 |5.| Mammal            | that contains information about an animal that are mammals like mouse, elephant|
-|6.| Reptile           |Containt Information about animals that are reptile like snakes|
+|6.| Reptile           |Containt Information about animals that are reptile-like snakes|
 
 ### zoo/animal
 
