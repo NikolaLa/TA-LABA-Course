@@ -32,7 +32,7 @@ public class Main {
         //contractor
         Account account = new Account();
         Date d = null;
-        account.setDataTime(d.getTime());
+        account.setDataTime(d);
         //other
         PlacesInZoo lionRun = new PlacesInZoo("Lion run", "for the lion stuff like run  and nursery for little lion cubs");
         PlacesInZoo magazinFridge = new PlacesInZoo("Magazine Fridge", "there is meat and other ware that should in freezer");

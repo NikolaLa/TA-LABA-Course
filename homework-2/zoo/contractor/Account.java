@@ -25,7 +25,7 @@ public class Account {
         return dataTime;
     }
 
-    public void setDataTime(long dataTime) {
+    public void setDataTime(Date dataTime) {
         this.dataTime = dataTime;
     }
 
