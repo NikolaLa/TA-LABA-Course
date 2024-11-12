@@ -17,6 +17,16 @@ public class Fish extends AnimalBasicInfo{
         this.waterTemperature = waterTemperature;
     }
 
+    @Override
+    public String getName() {
+        return "";
+    }
+
+    @Override
+    public String setName(String name) {
+        return "";
+    }
+
     //methode
 
     public String getWateType() {

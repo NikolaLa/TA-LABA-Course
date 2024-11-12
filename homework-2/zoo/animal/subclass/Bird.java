@@ -2,7 +2,6 @@ package animal.subclass;
 
 import animal.AnimalBasicInfo;
 import animal.Parents;
-
 import java.util.BitSet;
 
 public class Bird extends AnimalBasicInfo{
@@ -14,6 +13,17 @@ public class Bird extends AnimalBasicInfo{
     public Bird(){
         this.locationNest = "default";
     }
+
+    @Override
+    public String getName() {
+        return "";
+    }
+
+    @Override
+    public String setName(String name) {
+        return "";
+    }
+
     public Bird(String locationNest){
     this.locationNest = locationNest;
     }

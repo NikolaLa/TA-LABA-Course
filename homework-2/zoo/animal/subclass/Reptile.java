@@ -12,6 +12,17 @@ public class Reptile extends  AnimalBasicInfo{
         this.neededTemperature = "default";
 
     }
+
+    @Override
+    public String getName() {
+        return "";
+    }
+
+    @Override
+    public String setName(String name) {
+        return "";
+    }
+
     public Reptile(String neededTemperature){
         this.neededTemperature = neededTemperature;
     }

@@ -9,6 +9,17 @@ public class Invertebrates extends  AnimalBasicInfo{
     public Invertebrates(){
         this.locationNeeds = "default";
     }
+
+    @Override
+    public String getName() {
+        return "";
+    }
+
+    @Override
+    public String setName(String name) {
+        return "";
+    }
+
     public Invertebrates(String locationNeeds){
         this.locationNeeds = locationNeeds;
     }

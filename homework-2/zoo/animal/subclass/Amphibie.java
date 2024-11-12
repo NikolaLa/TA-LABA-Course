@@ -19,6 +19,16 @@ public class Amphibie extends AnimalBasicInfo {
         this.locationNeed = locationNeed;
     }
 
+    @Override
+    public String getName() {
+        return "";
+    }
+
+    @Override
+    public String setName(String name) {
+        return "";
+    }
+
     //Methode
 
     public String getWater() {

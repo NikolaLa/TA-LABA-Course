@@ -19,7 +19,7 @@ public class Mammal extends AnimalBasicInfo {
         this.petName = petName;
     }
 
-//    Mammal(AnimalBasicInfo animalBasicInfo){
+    //    Mammal(AnimalBasicInfo animalBasicInfo){
 //
 //        this.animalBasicInfo = animalBasicInfo;
 //    }
@@ -28,6 +28,17 @@ public class Mammal extends AnimalBasicInfo {
 //        this.parents = parents;
 //    }
     //methode
+    @Override
+    public String getName(){
+        return name;
+    }
+    @Override
+    public String setName(String name)
+    {
+        this.name = name;
+        return name;
+    }
+
     public void eat() {
     System.out.println("dinner time");
 }

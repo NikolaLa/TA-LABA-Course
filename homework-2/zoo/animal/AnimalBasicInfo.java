@@ -3,12 +3,12 @@ package animal;
 import other.PlacesInZoo;
 
 //Animals in the Zoo Child Class of PlacesInZoo
-public class AnimalBasicInfo{
+public abstract class AnimalBasicInfo{
     //field
     private int id;
-    private String name;
-    private String howMany; // not mistake that is String animals like ant are counted in colonies,
-    boolean inZoo;
+    protected String name;
+    protected String howMany; // not mistake that is String animals like ant are counted in colonies,
+    protected boolean inZoo;
 
     //construction
     public AnimalBasicInfo() {
@@ -24,17 +24,17 @@ public class AnimalBasicInfo{
         this.howMany = howMany;
         this.inZoo = true ;
     }
-
+    public void animalExist(String compare, String compare2){
+        if(compare.equals(compare2)){
+            System.out.println("this animal name exist");
+        }
+    }
 
     //methode
-    public String getName(){
-        return name;
-    }
-    public String setName(String name)
-    {
-        this.name = name;
-        return name;
-    }
+    abstract public String getName();
+
+    abstract public String setName(String name);
+
     public int getId(){
         return id;
     }

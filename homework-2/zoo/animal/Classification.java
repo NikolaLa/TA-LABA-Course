@@ -1,68 +1,81 @@
 package animal;
 
+import java.util.*;
+
 public class Classification {
     //field
-    private String domain;
-    private String kigdom;
-    private String phylum;
-    private String clada;
-    private String classAmimal;
+    protected Set domain = new HashSet<>();
+    protected Set kigdom = new HashSet<>();
+    protected List phylum;
+    protected List clada;
+    protected List classAnimal;
 
     //construct
-    public Classification(){
-        this.domain = "default domain";
-        this.kigdom = "default kigdom ";
-        this.clada = "default clayda";
-        this.classAmimal = "default class";
-        this.phylum = "default phylum";
+
+    public Classification() {
     }
-    public Classification(String domain, String kigdom ,String phylum, String clada, String classAmimal){
+
+    public Classification(Set domain, Set kigdom, List phylum, List clada, List classAnimal) {
         this.domain = domain;
         this.kigdom = kigdom;
         this.phylum = phylum;
         this.clada = clada;
-        this.classAmimal = classAmimal;
+        this.classAnimal = classAnimal;
     }
+
     //methode = function = operations
 
 
-    public String getDomain() {
+    public Set getDomain() {
         return domain;
     }
 
-    public void setDomain(String domain) {
+    public void setDomain(Set domain) {
         this.domain = domain;
     }
 
-    public String getKigdom() {
+    public Set getKigdom() {
         return kigdom;
     }
 
-    public void setKigdom(String kigdom) {
+    public void setKigdom(Set kigdom) {
         this.kigdom = kigdom;
     }
 
-    public String getPhylum() {
+    public List getPhylum() {
         return phylum;
     }
 
-    public void setPhylum(String phylum) {
+    public void setPhylum(List phylum) {
         this.phylum = phylum;
     }
 
-    public String getClada() {
+    public List getClada() {
         return clada;
     }
 
-    public void setClada(String clada) {
+    public void setClada(List clada) {
         this.clada = clada;
     }
 
-    public String getClassAmimal() {
-        return classAmimal;
+    public List getClassAnimal() {
+        return classAnimal;
     }
 
-    public void setClassAmimal(String classAmimal) {
-        this.classAmimal = classAmimal;
+    public void setClassAnimal(List classAnimal) {
+        this.classAnimal = classAnimal;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Classification that = (Classification) o;
+        return Objects.equals(domain, that.domain) && Objects.equals(kigdom, that.kigdom) && Objects.equals(phylum, that.phylum) && Objects.equals(clada, that.clada) && Objects.equals(classAnimal, that.classAnimal);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(domain, kigdom, phylum, clada, classAnimal);
     }
 }
