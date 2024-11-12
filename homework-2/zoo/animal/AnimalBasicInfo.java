@@ -35,6 +35,10 @@ public abstract class AnimalBasicInfo{
 
     abstract public String setName(String name);
 
+    @Override
+    public String toString(){
+        return (id+ " " + name + "" + howMany + " "+ inZoo );
+    }
     public int getId(){
         return id;
     }

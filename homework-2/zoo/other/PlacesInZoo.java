@@ -6,11 +6,20 @@ public class PlacesInZoo {
     private boolean occupateByAnimal;
 
     //constructor
-    PlacesInZoo(String name, String description){
+
+    public PlacesInZoo() {
+    }
+
+    public PlacesInZoo(String name, String description){
         this.name = name;
         this.description = description;
     }
 
+    public PlacesInZoo(String name, String description, boolean occupateByAnimal) {
+        this.name = name;
+        this.description = description;
+        this.occupateByAnimal = occupateByAnimal;
+    }
     //methode
 
     public String getName() {

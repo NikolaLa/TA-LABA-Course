@@ -1,8 +1,11 @@
 //class used for setting date in calender
 package contractor;
+
+import java.util.Date;
+
 public class Account {
     //fields
-    private String dataTime;
+    private Date dataTime;
     private int number;
 
     //constructor
@@ -10,7 +13,7 @@ public class Account {
 
     }
 
-    public Account(String dataTime, int number) {
+    public Account(Date dataTime, int number) {
         this.dataTime = dataTime;
         this.number = number;
     }
@@ -18,11 +21,11 @@ public class Account {
     //methode
 
 
-    public String getDataTime() {
+    public Date getDataTime() {
         return dataTime;
     }
 
-    public void setDataTime(String dataTime) {
+    public void setDataTime(long dataTime) {
         this.dataTime = dataTime;
     }
 
