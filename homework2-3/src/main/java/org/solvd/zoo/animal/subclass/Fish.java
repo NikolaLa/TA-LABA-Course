@@ -1,6 +1,6 @@
 package org.solvd.zoo.animal.subclass;
 
-import animal.AnimalBasicInfo;
+import org.solvd.zoo.animal.AnimalBasicInfo;
 
 public class Fish extends AnimalBasicInfo{
     //field

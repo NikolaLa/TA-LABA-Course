@@ -1,7 +1,7 @@
 package org.solvd.zoo.animal.subclass;
 
-import animal.AnimalBasicInfo;
-import animal.Parents;
+import org.solvd.zoo.animal.AnimalBasicInfo;
+import org.solvd.zoo.animal.Parents;
 
 public class Amphibie extends AnimalBasicInfo {
     //field

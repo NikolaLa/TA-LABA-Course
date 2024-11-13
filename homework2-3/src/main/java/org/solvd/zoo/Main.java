@@ -1,4 +1,4 @@
-/*
+package org.solvd.zoo;/*
  * @author Nikola Lauer
  * @version 7.11 05 Nov 2024
  *

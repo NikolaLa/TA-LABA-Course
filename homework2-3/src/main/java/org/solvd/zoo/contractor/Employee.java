@@ -1,6 +1,6 @@
 package org.solvd.zoo.contractor;
 
-import other.CalenderDate;
+import org.solvd.zoo.other.CalenderDate;
 
 //This class is a parent class and descript people who work in the zoo
 public class Employee {

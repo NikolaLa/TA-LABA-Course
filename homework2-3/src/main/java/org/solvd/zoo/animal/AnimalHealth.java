@@ -1,6 +1,6 @@
 package org.solvd.zoo.animal;
 
-import contractor.Vet;
+import org.solvd.zoo.contractor.Vet;
 
 public class AnimalHealth extends Vet {
     //fields
