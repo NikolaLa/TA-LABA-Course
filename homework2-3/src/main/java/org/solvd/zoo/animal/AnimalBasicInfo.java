@@ -1,5 +1,7 @@
 package org.solvd.zoo.animal;
 
+import org.solvd.zoo.contractor.Vet;
+
 import java.util.Objects;
 
 //Animals in the Zoo Child Class of PlacesInZoo

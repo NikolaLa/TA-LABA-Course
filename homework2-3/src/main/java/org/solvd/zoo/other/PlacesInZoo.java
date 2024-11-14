@@ -1,4 +1,4 @@
-package other;
+package org.solvd.zoo.other;
 public class PlacesInZoo {
     //state
     private String name;

@@ -10,6 +10,16 @@ public class Invertebrates extends  AnimalBasicInfo{
         this.locationNeeds = "default";
     }
 
+
+    public Invertebrates(String locationNeeds){
+        this.locationNeeds = locationNeeds;
+    }
+
+    public Invertebrates(String name, String howMany, String locationNeeds) {
+        super(name, howMany);
+        this.locationNeeds = locationNeeds;
+    }
+
     @Override
     public String getName() {
         return "";
@@ -20,9 +30,6 @@ public class Invertebrates extends  AnimalBasicInfo{
         return "";
     }
 
-    public Invertebrates(String locationNeeds){
-        this.locationNeeds = locationNeeds;
-    }
     //methode
 
     public String getLocationNeeds() {

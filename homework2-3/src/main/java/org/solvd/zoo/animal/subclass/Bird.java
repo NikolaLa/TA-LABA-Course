@@ -27,6 +27,11 @@ public class Bird extends AnimalBasicInfo{
     public Bird(String locationNest){
     this.locationNest = locationNest;
     }
+
+    public Bird(String name, String howMany, String locationNest) {
+        super(name, howMany);
+        this.locationNest = locationNest;
+    }
     //methode
 
     public String getLocationNest() {

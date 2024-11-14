@@ -19,6 +19,11 @@ public class Mammal extends AnimalBasicInfo {
         this.petName = petName;
     }
 
+    public Mammal(String name, String howMany, String petName) {
+        super(name, howMany);
+        this.petName = petName;
+    }
+
     //    Mammal(AnimalBasicInfo animalBasicInfo){
 //
 //        this.animalBasicInfo = animalBasicInfo;

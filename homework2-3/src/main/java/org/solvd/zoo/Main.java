@@ -10,7 +10,7 @@ import org.solvd.zoo.animal.AnimalBasicInfo;
 import org.solvd.zoo.animal.subclass.*;
 import org.solvd.zoo.contractor.Account;
 import org.solvd.zoo.contractor.Client;
-import other.PlacesInZoo;
+import org.solvd.zoo.other.PlacesInZoo;
 import org.solvd.zoo.ware.BuyWare;
 import org.solvd.zoo.ware.Vegetable;
 
@@ -20,7 +20,7 @@ public class Main {
     public static void main(String[] args) {
         //animals
         Amphibie amphibie = new Amphibie();
-        Bird bird = new Bird();
+        Bird bird = new Bird("Magpie","4","Tree");
         Fish fish = new Fish();
         Invertebrates invertebrates = new Invertebrates();
         Mammal mammal = new Mammal();

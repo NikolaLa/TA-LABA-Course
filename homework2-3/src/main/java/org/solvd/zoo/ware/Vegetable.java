@@ -16,7 +16,7 @@ public class Vegetable {
         this.isFresh = isFresh;
         this.experientDate = experientDate;
     }
-//methode
+    //methode
     public void feed(){
 
     }

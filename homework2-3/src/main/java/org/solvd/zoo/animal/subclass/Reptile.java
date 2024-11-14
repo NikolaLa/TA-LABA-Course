@@ -23,7 +23,13 @@ public class Reptile extends  AnimalBasicInfo{
         return "";
     }
 
+
     public Reptile(String neededTemperature){
+        this.neededTemperature = neededTemperature;
+    }
+
+    public Reptile(String name, String howMany, String neededTemperature) {
+        super(name, howMany);
         this.neededTemperature = neededTemperature;
     }
     //Methode
