@@ -30,6 +30,19 @@ public class Employee {
 
     //methode
 
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", role='" + role + '\'' +
+                ", account=" + account +
+                ", pesel=" + pesel +
+                ", vacation=" + vacation +
+                '}';
+    }
+
     public String getFirstName() {
         return firstName;
     }

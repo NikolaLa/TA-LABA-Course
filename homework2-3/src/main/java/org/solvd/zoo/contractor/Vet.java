@@ -1,5 +1,7 @@
 package org.solvd.zoo.contractor;
 
+import java.util.Objects;
+
 //Class that contain information about Vets that visit the zoo
 public class Vet {
     //fields
@@ -22,6 +24,21 @@ public class Vet {
         this.descriptionSpecialization = descriptionSpecialization;
     }
     //methode
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vet vet = (Vet) o;
+        return id == vet.id && Objects.equals(firstName, vet.firstName) && Objects.equals(lastName, vet.lastName) && Objects.equals(clinicName, vet.clinicName) && Objects.equals(descriptionSpecialization, vet.descriptionSpecialization);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, firstName, lastName, clinicName, descriptionSpecialization);
+    }
+
     public void giveMedicine(){
 
     }

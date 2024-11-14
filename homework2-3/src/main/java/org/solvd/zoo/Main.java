@@ -9,6 +9,7 @@ package org.solvd.zoo;/*
 import org.solvd.zoo.animal.AnimalBasicInfo;
 import org.solvd.zoo.animal.subclass.*;
 import org.solvd.zoo.contractor.Account;
+import org.solvd.zoo.contractor.Client;
 import other.PlacesInZoo;
 import org.solvd.zoo.ware.BuyWare;
 import org.solvd.zoo.ware.Vegetable;
@@ -34,6 +35,7 @@ public class Main {
         Account account = new Account();
         Date d = null;
         account.setDataTime(d);
+        Client client = new Client(d,2);
 
         //other
         PlacesInZoo lionRun = new PlacesInZoo("Lion run", "for the lion stuff like run  and nursery for little lion cubs");

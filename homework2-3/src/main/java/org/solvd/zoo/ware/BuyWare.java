@@ -3,6 +3,8 @@ package org.solvd.zoo.ware;
 
 import org.solvd.zoo.contractor.Seller;
 
+import java.util.Objects;
+
 public class BuyWare {
     //fields
     private String name;
@@ -26,6 +28,31 @@ public class BuyWare {
         this.category = category;
     }
     //methode
+
+    @Override
+    public String toString() {
+        return "BuyWare{" +
+                "name='" + name + '\'' +
+                ", amount=" + amount +
+                ", mesaurment='" + mesaurment + '\'' +
+                ", dataTime='" + dataTime + '\'' +
+                ", seller=" + seller +
+                ", category='" + category + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        BuyWare buyWare = (BuyWare) o;
+        return Float.compare(amount, buyWare.amount) == 0 && Objects.equals(name, buyWare.name) && Objects.equals(mesaurment, buyWare.mesaurment) && Objects.equals(dataTime, buyWare.dataTime) && Objects.equals(seller, buyWare.seller) && Objects.equals(category, buyWare.category);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, amount, mesaurment, dataTime, seller, category);
+    }
 
     public String getName() {
         return name;

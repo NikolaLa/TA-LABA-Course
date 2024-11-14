@@ -7,7 +7,7 @@ import java.util.Date;
 public class ClientGroup extends Client{
     //field
     private String name;
-    CalenderDate calenderDate;
+    private CalenderDate calenderDate;
 
     //cosntructor
     ClientGroup(Date buyDate, int count) {

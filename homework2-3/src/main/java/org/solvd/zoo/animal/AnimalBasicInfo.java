@@ -1,5 +1,7 @@
 package org.solvd.zoo.animal;
 
+import java.util.Objects;
+
 //Animals in the Zoo Child Class of PlacesInZoo
 public abstract class AnimalBasicInfo{
     //field
@@ -35,16 +37,21 @@ public abstract class AnimalBasicInfo{
 
     @Override
     public String toString(){
+
         return (id+ " " + name + "" + howMany + " "+ inZoo );
     }
-    @Override
-    public int hashCode(){
 
-        return 0;
-    }
     @Override
-    public boolean equals(Object e){
-        return equals(e) ;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AnimalBasicInfo that = (AnimalBasicInfo) o;
+        return id == that.id && inZoo == that.inZoo && Objects.equals(name, that.name) && Objects.equals(howMany, that.howMany);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, howMany, inZoo);
     }
 
     public int getId(){
