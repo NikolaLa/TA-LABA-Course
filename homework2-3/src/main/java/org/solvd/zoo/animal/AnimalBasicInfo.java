@@ -36,9 +36,13 @@ public abstract class AnimalBasicInfo{
     abstract public String setName(String name);
 
     @Override
-    public String toString(){
-
-        return (id+ " " + name + "" + howMany + " "+ inZoo );
+    public String toString() {
+        return "AnimalBasicInfo{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", howMany='" + howMany + '\'' +
+                ", inZoo=" + inZoo +
+                '}';
     }
 
     @Override
