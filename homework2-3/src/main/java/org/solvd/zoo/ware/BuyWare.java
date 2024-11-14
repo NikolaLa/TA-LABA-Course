@@ -5,7 +5,7 @@ import org.solvd.zoo.contractor.Seller;
 
 import java.util.Objects;
 
-public class BuyWare {
+public abstract class BuyWare {
     //fields
     private String name;
     private float amount;

@@ -27,6 +27,16 @@ public class Vet {
 
 
     @Override
+    public String toString() {
+        return "Vet{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", clinicName='" + clinicName + '\'' +
+                ", descriptionSpecialization='" + descriptionSpecialization + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

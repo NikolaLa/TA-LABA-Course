@@ -12,6 +12,8 @@ import org.solvd.zoo.contractor.Account;
 import org.solvd.zoo.contractor.Client;
 import org.solvd.zoo.other.PlacesInZoo;
 import org.solvd.zoo.ware.BuyWare;
+import org.solvd.zoo.ware.MeatForAnimals;
+import org.solvd.zoo.ware.Tools;
 import org.solvd.zoo.ware.Vegetable;
 
 import java.util.Date;
@@ -19,13 +21,17 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         //animals
-        Amphibie amphibie = new Amphibie();
+        Amphibie amphibie = new Amphibie("Frog","3","swamp","warm, where it can hides");
+        System.out.println(amphibie);
         Bird bird = new Bird("Magpie","4","Tree");
-        Fish fish = new Fish();
-        Invertebrates invertebrates = new Invertebrates();
-        Mammal mammal = new Mammal();
-        Reptile reptile = new Reptile();
-
+        System.out.println(bird);
+        Fish fish = new Fish("Zebra Shark","3","inshore marine or brackish waters with depths from intertidal to 30 m (99 ft) where there are reefs and sandy, rubble, or coral bottoms");
+        System.out.println(fish);
+        Invertebrates invertebrates = new Invertebrates("ant","1 coloni","sandy");
+        System.out.println(invertebrates);
+        Mammal mammal = new Mammal("Elephant","1","Jerry");
+        Reptile reptile = new Reptile("Lizard","2","35");
+        System.out.println(reptile);
         System.out.println(mammal.getPetName());
         mammal.setPetName("birdie");
         System.out.println(mammal.getPetName());
@@ -33,9 +39,11 @@ public class Main {
 
         //contractor
         Account account = new Account();
+        System.out.println(account);
         Date d = null;
         account.setDataTime(d);
         Client client = new Client(d,2);
+        System.out.println(client);
 
         //other
         PlacesInZoo lionRun = new PlacesInZoo("Lion run", "for the lion stuff like run  and nursery for little lion cubs");
@@ -43,6 +51,10 @@ public class Main {
 
         //ware
         Vegetable vegetable = new Vegetable(true, d);
+
+        MeatForAnimals meatForAnimals = new MeatForAnimals();
+
+        Tools tools = new Tools(true);
 
     }
 
