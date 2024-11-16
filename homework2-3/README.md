@@ -4,9 +4,12 @@
 # Theme Zoo
 ## Project Requierment WIP
 - Place in Zoo
-- - can have Animals inhabitens
-- - have to schedule cleaning each day also should be left feed on time can have special event like feeding some places can allow scheduled visits with the Vet
-- The Vet can have more than on Animals that it takes care of
+   - can have Animals inhabitens
+   - have to schedule cleaning each day
+   - should be a place for feed on time
+   - can have special event like feeding some places can allow scheduled visits with the Vet
+- The Vet:
+   - can have more than on Animals that it takes care of
 - Visitors/ Client can by Families with Children or only Adults  can also a group
 - Seller can sell various products for the animals like hay or tools or simple things like paper for worker can be one time purchase or multiple purchase or scheduled purchase   
 
