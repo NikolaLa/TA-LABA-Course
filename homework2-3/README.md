@@ -2,16 +2,66 @@
 
 #  $${\color{orange}Homework \space  nr \space  2\- \space 3 \space }$$
 # Theme Zoo
-## Project Requierment WIP
+## Zoo Requirement WIP
 - Place in Zoo
-   - can have Animals inhabitens
+   - can have Animals inhabitens or can be empty
    - have to schedule cleaning each day
-   - should be a place for feed on time
-   - can have special event like feeding some places can allow scheduled visits with the Vet
+   - should contain feed on time
+   - can have special event like feeding some places
+   - can allow scheduled visits with the Vet
+   - 
 - The Vet:
    - can have more than on Animals that it takes care of
-- Visitors/ Client can by Families with Children or only Adults  can also a group
-- Seller can sell various products for the animals like hay or tools or simple things like paper for worker can be one time purchase or multiple purchase or scheduled purchase   
+   - can prescribe medicine
+   - can prescribe health procedures (do research)
+ 
+- Animal Health
+   - Should Contain Basic information about single animal like 1 lion or group animals like 1 colony of ants
+   - One type of animal or group animal can have more than one prescription
+   - contain information about Prescription
+   
+- Parents (part of Animal Basic Information)
+   - Females Name
+   - Males Name
+   - Females Zoo
+   - Males Zoo
+
+- Classification of the animals(part of Basic Information)
+   - domain
+   - Kingdom.
+   - Phylum.
+   - Class.
+   - Order.
+   - Family.
+   - Genus.
+   - Species.
+   
+- AnimalBasicInfo
+   - can have information about age of animal
+   - can contain information about parent 
+   - should have the name of the animal
+   - If lays eggs
+   - Animal Health if it should have information mediciny
+   - Clasification of the animal its taxonomy
+ 
+- Birds 
+   - Diffrent Beaks serve purpose what they eat
+   - Diffrent Feets serve purpose like swimming or catching prey
+ 
+- Mammals   
+- Visitors/ Client
+   - can by Families with Children or only Adults (enum -> Children under 5, Children between 5 and 16, Adult above 16, Families 2 + 2, Families 2 + 1 )
+   - can also by scheduled group
+   - 
+- Seller
+   - can sell various products for the animals like hay or tools or simple things like paper for worker
+   - can be one time purchase or multiple purchase or scheduled purchase
+   - 
+- Workes
+   - can schedule a visit for vet
+   - can schedule a cleaning
+   -  
+
 
 ## Classes
 
