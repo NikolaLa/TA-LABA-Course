@@ -1,29 +1,31 @@
 package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
+import org.solvd.zoo.animal.subclass.animalenum.ScaleType;
 
 public final class Fish extends AnimalBasicInfo{
     //field
-    private String wateType;
-    private String waterTemperature;
+    private int watepH;
+    private ScaleType scaleType;
 
     //constructor
-    public Fish(){
-        this.wateType = "default";
-        this.waterTemperature = "default";
-    }
-    public Fish(String waterType, String waterTemperature){
-        this.wateType = waterType;
-        this.waterTemperature = waterTemperature;
+
+
+    public Fish(int watepH, ScaleType scaleType) {
+        this.watepH = watepH;
+        this.scaleType = scaleType;
     }
 
-    public Fish(String wateType) {
-        this.wateType = wateType;
-    }
-
-    public Fish(String name, String howMany, String wateType) {
+    public Fish(String name, String howMany, int watepH, ScaleType scaleType) {
         super(name, howMany);
-        this.wateType = wateType;
+        this.watepH = watepH;
+        this.scaleType = scaleType;
+    }
+
+    public Fish(String name, String petName, String howMany, boolean inZoo, int watepH, ScaleType scaleType) {
+        super(name, petName, howMany, inZoo);
+        this.watepH = watepH;
+        this.scaleType = scaleType;
     }
 
     @Override
@@ -38,19 +40,5 @@ public final class Fish extends AnimalBasicInfo{
 
     //methode
 
-    public String getWateType() {
-        return wateType;
-    }
 
-    public void setWateType(String wateType) {
-        this.wateType = wateType;
-    }
-
-    public String getWaterTemperature() {
-        return waterTemperature;
-    }
-
-    public void setWaterTemperature(String waterTemperature) {
-        this.waterTemperature = waterTemperature;
-    }
 }

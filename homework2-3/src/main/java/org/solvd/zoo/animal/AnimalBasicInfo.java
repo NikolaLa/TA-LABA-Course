@@ -1,32 +1,41 @@
 package org.solvd.zoo.animal;
 
+import org.solvd.zoo.animal.subclass.animalenum.AnimalCategory;
 import org.solvd.zoo.contractor.Vet;
+import org.solvd.zoo.interfacezoo.Cleaning;
+import org.solvd.zoo.interfacezoo.Feed;
 
 import java.util.Objects;
 
 //Animals in the Zoo Child Class of PlacesInZoo
-public abstract class AnimalBasicInfo{
+public class AnimalBasicInfo implements Feed {
     //field
-    private static int nextId = 1;
-    private int id;
+    private static int id;
     protected String name;
-    protected String howMany;
+    protected String petName;
     protected boolean inZoo;
-
+    AnimalCategory animalCategory;
+    ExtendAnimalInformation extendAnimalInformation;
+    Parents parents;
     //construction
     public AnimalBasicInfo() {
-        this.id = nextId++; // should count next
+        id = id++; // should count next
         this.name = "default";
-        this.howMany = "default";
         this.inZoo = true ;
     }
 
     public AnimalBasicInfo( String name, String howMany){
-        this.id = nextId++; // should count next
+        id = id++; // should count next
         this.name = name;
-        this.howMany = howMany;
         this.inZoo = true ;
     }
+
+    public AnimalBasicInfo(String name, String petName, String howMany, boolean inZoo) {
+        this.name = name;
+        this.petName = petName;
+        this.inZoo = inZoo;
+    }
+
     public void animalExist(String compare, String compare2){
         if(compare.equals(compare2)){
             System.out.println("this animal name exist");
@@ -34,16 +43,19 @@ public abstract class AnimalBasicInfo{
     }
 
     //methode
-    abstract public String getName();
+    public String getName() {
+        return null;
+    }
 
-    abstract public String setName(String name);
+    public String setName(String name) {
+        return null;
+    }
 
     @Override
     public String toString() {
         return "AnimalBasicInfo{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", howMany='" + howMany + '\'' +
                 ", inZoo=" + inZoo +
                 '}';
     }
@@ -53,12 +65,12 @@ public abstract class AnimalBasicInfo{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         AnimalBasicInfo that = (AnimalBasicInfo) o;
-        return id == that.id && inZoo == that.inZoo && Objects.equals(name, that.name) && Objects.equals(howMany, that.howMany);
+        return id == that.id && inZoo == that.inZoo && Objects.equals(name, that.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, howMany, inZoo);
+        return Objects.hash(id, name, inZoo);
     }
 
     public int getId(){
@@ -68,13 +80,6 @@ public abstract class AnimalBasicInfo{
         this.id = id;
         return id;
     }
-    public String getHowMany(){
-        return howMany;
-    }
-    public String setHowMany(String howMany){
-        this.howMany = howMany;
-        return howMany;
-    }
 
     public boolean isInZoo() {
         return inZoo;
@@ -83,4 +88,11 @@ public abstract class AnimalBasicInfo{
     public void setInZoo(boolean inZoo) {
         this.inZoo = inZoo;
     }
+
+    @Override
+    public void feed() {
+
+    }
+
+
 }

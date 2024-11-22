@@ -6,6 +6,7 @@ public class Client {
     //field
     private Date buyDate;
     private int count;
+    private TicketType ticketType;
 
     //constructor
 

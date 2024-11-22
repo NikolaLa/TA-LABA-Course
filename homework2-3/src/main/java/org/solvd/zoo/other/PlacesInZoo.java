@@ -1,5 +1,8 @@
 package org.solvd.zoo.other;
-public class PlacesInZoo {
+
+import org.solvd.zoo.interfacezoo.Cleaning;
+
+public class PlacesInZoo implements Cleaning {
     //state
     private String name;
     private String description;
@@ -44,5 +47,15 @@ public class PlacesInZoo {
 
     public void setOccupateByAnimal(boolean occupateByAnimal) {
         this.occupateByAnimal = occupateByAnimal;
+    }
+
+    @Override
+    public void cleaning() {
+
+    }
+
+    @Override
+    public void useUtilities() {
+
     }
 }

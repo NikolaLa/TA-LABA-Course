@@ -5,9 +5,10 @@ import java.util.Objects;
 //Class that contain information about Vets that visit the zoo
 public class Vet {
     //fields
-    private int id;
+    private static int id;
     private String firstName;
     private String lastName;
+    private Account account;
     private String clinicName;
     private String descriptionSpecialization;
 
@@ -16,13 +17,15 @@ public class Vet {
     public Vet() {
     }
 
-    public Vet(int id, String firstName, String lastName, String clinicName, String descriptionSpecialization) {
-        this.id = id;
+    public Vet(String firstName, String lastName, Account account, String clinicName, String descriptionSpecialization) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.account = account;
         this.clinicName = clinicName;
         this.descriptionSpecialization = descriptionSpecialization;
     }
+
+
     //methode
 
 

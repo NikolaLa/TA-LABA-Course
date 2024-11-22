@@ -1,9 +1,11 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.Cleaning;
+import org.solvd.zoo.interfacezoo.Feed;
 import org.solvd.zoo.other.CalenderDate;
 
 //This class is a parent class and descript people who work in the zoo
-public class Employee {
+public final class Employee implements Feed, Cleaning {
     //field
     private String firstName;
     private String lastName;
@@ -41,6 +43,20 @@ public class Employee {
                 ", pesel=" + pesel +
                 ", vacation=" + vacation +
                 '}';
+    }
+    @Override
+    public void cleaning() {
+
+    }
+
+    @Override
+    public void useUtilities() {
+
+    }
+
+    @Override
+    public void feed() {
+
     }
 
     public String getFirstName() {
@@ -90,4 +106,6 @@ public class Employee {
     public void setVacation(CalenderDate vacation) {
         this.vacation = vacation;
     }
+
+
 }

@@ -4,16 +4,20 @@ import org.solvd.zoo.contractor.Vet;
 
 public class AnimalHealth extends Vet {
     //fields
+    private static int idCount = 0;
+    private int id;
     private AnimalBasicInfo animalBasicInfo;
     private String title;
     private String medicine;
 
     //constructor
     AnimalHealth(String medicine){
+        this.id = idCount++;
         this.title = "default";
         this.medicine = medicine;
     }
     AnimalHealth(String title, String medicine){
+        this.id = idCount++;
         this.title = title;
         this.medicine = medicine;
     }

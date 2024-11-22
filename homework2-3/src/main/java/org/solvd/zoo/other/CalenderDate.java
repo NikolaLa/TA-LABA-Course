@@ -2,10 +2,11 @@
 package org.solvd.zoo.other;
 
 import org.solvd.zoo.contractor.Vet;
+import org.solvd.zoo.interfacezoo.ScheduleEvent;
 
 import java.util.Date;
 
-public class CalenderDate {
+public class CalenderDate implements ScheduleEvent {
     //state
     public Date dateTime;
     public String name;
@@ -40,5 +41,15 @@ public class CalenderDate {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public void setCleaningDate() {
+
+    }
+
+    @Override
+    public void setFestivalEvent() {
+
     }
 }

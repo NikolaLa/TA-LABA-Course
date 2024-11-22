@@ -27,6 +27,27 @@ public abstract class Parents {
         this.birthday = birthday;
     }
 
+    public Parents(int ageMonth, Date birthday, String femaleName, String femaleWhichZoo, String maleName, String maleWhichZoo) {
+        this.ageMonth = ageMonth;
+        this.birthday = birthday;
+        this.femaleName = femaleName;
+        this.femaleWhichZoo = femaleWhichZoo;
+        this.maleName = maleName;
+        this.maleWhichZoo = maleWhichZoo;
+    }
+
+    @Override
+    public String toString() {
+        return "Parents{" +
+                "ageMonth=" + ageMonth +
+                ", birthday=" + birthday +
+                ", femaleName='" + femaleName + '\'' +
+                ", femaleWhichZoo='" + femaleWhichZoo + '\'' +
+                ", maleName='" + maleName + '\'' +
+                ", maleWhichZoo='" + maleWhichZoo + '\'' +
+                '}';
+    }
+
     //Methode
     public int convertMonthtoYear(int ageMonth){
         this.ageMonth = ageMonth/12;

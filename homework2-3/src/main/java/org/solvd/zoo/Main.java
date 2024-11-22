@@ -21,21 +21,12 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         //animals
-        Amphibie amphibie = new Amphibie("Frog","3","swamp","warm, where it can hides");
-        System.out.println(amphibie);
-        Bird bird = new Bird("Magpie","4","Tree");
-        System.out.println(bird);
-        Fish fish = new Fish("Zebra Shark","3","inshore marine or brackish waters with depths from intertidal to 30 m (99 ft) where there are reefs and sandy, rubble, or coral bottoms");
-        System.out.println(fish);
-        Invertebrates invertebrates = new Invertebrates("ant","1 coloni","sandy");
-        System.out.println(invertebrates);
-        Reptile reptile = new Reptile("Lizard","2","35");
-        System.out.println(reptile);
+        AnimalBasicInfo lizard = new AnimalBasicInfo("Lizard",1);
 
 
         //contractor
-       Date d;
-        Client client = new Client(d,2);
+        Date d;
+        Client client = new Client();
         System.out.println(client);
 
         //other

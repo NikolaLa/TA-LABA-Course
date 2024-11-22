@@ -1,8 +1,10 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.Cleaning;
+
 import java.util.Date;
 
-public class ContractorInfo {
+public abstract class ContractorInfo implements Cleaning {
      // fields
      private String firstName;
      private String lastName;
@@ -10,15 +12,16 @@ public class ContractorInfo {
      private Date avalability;
 
      //constructore
+     public ContractorInfo() {
+     }
+     
     public ContractorInfo(String firstName, String lastName, String jobdescription, Date avalability) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.jobdescription = jobdescription;
         this.avalability = avalability;
     }
-
-    public ContractorInfo() {
-    }
+    
 
     //methode
     public String getFirstName() {

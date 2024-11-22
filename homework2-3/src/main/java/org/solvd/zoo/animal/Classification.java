@@ -67,6 +67,17 @@ public abstract class Classification{
     }
 
     @Override
+    public String toString() {
+        return "Classification{" +
+                "domain='" + domain + '\'' +
+                ", kigdom='" + kigdom + '\'' +
+                ", phylum='" + phylum + '\'' +
+                ", clada='" + clada + '\'' +
+                ", classAnimal='" + classAnimal + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

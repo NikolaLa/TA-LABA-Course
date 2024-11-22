@@ -1,18 +1,22 @@
 package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
-import org.solvd.zoo.animal.Parents;
 
 
 public final class Mammal extends AnimalBasicInfo {
     //field
-    private String pet;
-
-
+    private String furType;
     //construction
 
 
+    public Mammal(String furType) {
+        this.furType = furType;
+    }
 
+    public Mammal(String name, String howMany, String furType) {
+        super(name, howMany);
+        this.furType = furType;
+    }
 
     //methode
     @Override

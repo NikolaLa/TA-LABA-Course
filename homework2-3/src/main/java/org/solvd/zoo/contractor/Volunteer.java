@@ -1,8 +1,10 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.Cleaning;
+
 import java.util.Date;
 
-public class Volunteer extends ContractorInfo {
+public final class Volunteer extends ContractorInfo implements Cleaning {
     //fields
     private String benefits;
     private String description;
@@ -37,5 +39,15 @@ public class Volunteer extends ContractorInfo {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public void cleaning() {
+
+    }
+
+    @Override
+    public void useUtilities() {
+
     }
 }
