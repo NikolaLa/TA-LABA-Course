@@ -2,7 +2,7 @@ package org.solvd.zoo.ware;
 
 import java.util.Date;
 
-public class Vegetable {
+public final class Vegetable {
     //fields
     private boolean isFresh;
     private Date experientDate;

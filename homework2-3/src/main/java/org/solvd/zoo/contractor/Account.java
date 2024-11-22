@@ -3,7 +3,7 @@ package org.solvd.zoo.contractor;
 
 import java.util.Date;
 
-public class Account {
+public abstract class Account {
     //fields
     private Date dataTime;
     private int number;

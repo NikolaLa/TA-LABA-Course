@@ -1,6 +1,6 @@
 package org.solvd.zoo.ware;
 
-public class Tools extends BuyWare{
+public final class Tools extends BuyWare{
     //fields
     boolean stillCanBeUsed;
     //construcotr

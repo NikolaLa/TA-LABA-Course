@@ -7,21 +7,22 @@ import java.util.Objects;
 //Animals in the Zoo Child Class of PlacesInZoo
 public abstract class AnimalBasicInfo{
     //field
-    private int id =0;
+    private static int nextId = 1;
+    private int id;
     protected String name;
-    protected String howMany; // not mistake that is String animals like ant are counted in colonies,
+    protected String howMany;
     protected boolean inZoo;
 
     //construction
     public AnimalBasicInfo() {
-        this.id ++; // should count next
+        this.id = nextId++; // should count next
         this.name = "default";
         this.howMany = "default";
         this.inZoo = true ;
     }
 
     public AnimalBasicInfo( String name, String howMany){
-        this.id = 1 ; // should count next
+        this.id = nextId++; // should count next
         this.name = name;
         this.howMany = howMany;
         this.inZoo = true ;

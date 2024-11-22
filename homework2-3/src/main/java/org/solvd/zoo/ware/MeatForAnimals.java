@@ -2,7 +2,7 @@ package org.solvd.zoo.ware;
 
 import java.util.Date;
 
-public class MeatForAnimals {
+public final class MeatForAnimals {
     //fields
      private String typeOfMeat;
      private boolean used;

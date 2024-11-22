@@ -2,7 +2,7 @@ package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
 
-public class Reptile extends  AnimalBasicInfo{
+public final class Reptile extends  AnimalBasicInfo{
     //field
     private String neededTemperature;
 

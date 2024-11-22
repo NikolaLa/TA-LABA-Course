@@ -3,10 +3,10 @@ package org.solvd.zoo.animal.subclass;
 import org.solvd.zoo.animal.AnimalBasicInfo;
 import org.solvd.zoo.animal.Parents;
 
-public class Amphibie extends AnimalBasicInfo {
+public final class Amphibie extends AnimalBasicInfo {
     //field
     private String water;
-    private String locationNeed; //Parents parents; // can contain parrents
+    private String locationNeed;
 
     //constructor
     public Amphibie(){

@@ -4,7 +4,7 @@ import org.solvd.zoo.other.CalenderDate;
 
 import java.util.Date;
 
-public class ClientGroup extends Client{
+public final class ClientGroup extends Client{
     //field
     private String name;
     private CalenderDate calenderDate;

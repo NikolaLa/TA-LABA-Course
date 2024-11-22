@@ -2,7 +2,7 @@ package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
 
-public class Fish extends AnimalBasicInfo{
+public final class Fish extends AnimalBasicInfo{
     //field
     private String wateType;
     private String waterTemperature;

@@ -29,19 +29,12 @@ public class Main {
         System.out.println(fish);
         Invertebrates invertebrates = new Invertebrates("ant","1 coloni","sandy");
         System.out.println(invertebrates);
-        Mammal mammal = new Mammal("Elephant","1","Jerry");
         Reptile reptile = new Reptile("Lizard","2","35");
         System.out.println(reptile);
-        System.out.println(mammal.getPetName());
-        mammal.setPetName("birdie");
-        System.out.println(mammal.getPetName());
-        mammal.eat();
+
 
         //contractor
-        Account account = new Account();
-        System.out.println(account);
-        Date d = null;
-        account.setDataTime(d);
+       Date d;
         Client client = new Client(d,2);
         System.out.println(client);
 

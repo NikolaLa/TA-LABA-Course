@@ -2,17 +2,22 @@ package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
 import org.solvd.zoo.animal.Parents;
+import org.solvd.zoo.animal.subclass.animalenum.Beaks;
+
 import java.util.BitSet;
 
-public class Bird extends AnimalBasicInfo{
+public final class Bird extends AnimalBasicInfo{
     //field
     private String locationNest;
+    private Beaks beaks;
     //Parents parent; // can have parents
 
     //construct
     public Bird(){
+        Beaks beaks = this.beaks.NONE;
         this.locationNest = "default";
     }
+
 
     @Override
     public String getName() {

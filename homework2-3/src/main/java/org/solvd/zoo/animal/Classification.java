@@ -2,20 +2,20 @@ package org.solvd.zoo.animal;
 
 import java.util.*;
 
-public class Classification {
+public abstract class Classification{
     //field
-    protected Set domain = new HashSet<>();
-    protected Set kigdom = new HashSet<>();
-    protected List phylum;
-    protected List clada;
-    protected List classAnimal;
+    protected String domain;
+    protected String kigdom;
+    protected String phylum;
+    protected String clada;
+    protected String classAnimal;
 
     //construct
 
     public Classification() {
     }
 
-    public Classification(Set domain, Set kigdom, List phylum, List clada, List classAnimal) {
+    public Classification(String domain, String kigdom, String phylum, String clada, String classAnimal) {
         this.domain = domain;
         this.kigdom = kigdom;
         this.phylum = phylum;
@@ -23,46 +23,46 @@ public class Classification {
         this.classAnimal = classAnimal;
     }
 
-    //methode = function = operations
+//methode = function = operations
 
 
-    public Set getDomain() {
+    public String getDomain() {
         return domain;
     }
 
-    public void setDomain(Set domain) {
+    public void setDomain(String domain) {
         this.domain = domain;
     }
 
-    public Set getKigdom() {
+    public String getKigdom() {
         return kigdom;
     }
 
-    public void setKigdom(Set kigdom) {
+    public void setKigdom(String kigdom) {
         this.kigdom = kigdom;
     }
 
-    public List getPhylum() {
+    public String getPhylum() {
         return phylum;
     }
 
-    public void setPhylum(List phylum) {
+    public void setPhylum(String phylum) {
         this.phylum = phylum;
     }
 
-    public List getClada() {
+    public String getClada() {
         return clada;
     }
 
-    public void setClada(List clada) {
+    public void setClada(String clada) {
         this.clada = clada;
     }
 
-    public List getClassAnimal() {
+    public String getClassAnimal() {
         return classAnimal;
     }
 
-    public void setClassAnimal(List classAnimal) {
+    public void setClassAnimal(String classAnimal) {
         this.classAnimal = classAnimal;
     }
 

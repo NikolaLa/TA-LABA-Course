@@ -8,8 +8,12 @@ public class Client {
     private int count;
 
     //constructor
-    public Client(Date buyDate,int count){
-        this.buyDate =buyDate;
+
+    public Client() {
+    }
+
+    public Client(Date buyDate, int count){
+        this.buyDate = buyDate;
         this.count = count;
     }
 

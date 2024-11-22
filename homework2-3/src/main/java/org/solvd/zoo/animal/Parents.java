@@ -4,7 +4,7 @@ import org.solvd.zoo.contractor.Vet;
 
 import java.util.Date;
 
-public class Parents {
+public abstract class Parents {
     //field
     //Vet vet; // optional part of Vet class
 
@@ -26,7 +26,6 @@ public class Parents {
         this.ageMonth = ageMonth;
         this.birthday = birthday;
     }
-
 
     //Methode
     public int convertMonthtoYear(int ageMonth){

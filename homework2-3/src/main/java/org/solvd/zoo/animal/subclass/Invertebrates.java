@@ -2,7 +2,7 @@ package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
 
-public class Invertebrates extends  AnimalBasicInfo{
+public final class Invertebrates extends  AnimalBasicInfo{
     //field
     private String locationNeeds;
     //constructor
