@@ -1,6 +1,6 @@
 # TA-LABA-Course
 
-# Homework \space  nr \space  2\- \space 3 \space 4\space }
+# Homework nr  2, 3, 4
 # Theme Zoo
 ## Zoo Requirement WIP
 - Place in Zoo
@@ -117,6 +117,5 @@
 
 ## Diagram WIP
 ### Whole diagram
-![test](https://github.com/user-attachments/assets/3980728f-1239-4b00-8a1c-53f07bbd0bd3)
-
+![test](https://github.com/user-attachments/assets/d936de06-b04e-47ef-b40f-b6643d62d66b)
 
