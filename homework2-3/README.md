@@ -117,6 +117,6 @@
 
 ## Diagram WIP
 ### Whole diagram
-![test](https://github.com/user-attachments/assets/3980728f-1239-4b00-8a1c-53f07bbd0bd3)
 
 
+![test](https://github.com/user-attachments/assets/33528760-deef-4fed-a53d-fe0f7e1cea8c)
