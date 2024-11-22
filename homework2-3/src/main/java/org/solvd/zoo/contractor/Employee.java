@@ -2,10 +2,11 @@ package org.solvd.zoo.contractor;
 
 import org.solvd.zoo.interfacezoo.Cleaning;
 import org.solvd.zoo.interfacezoo.Feed;
+import org.solvd.zoo.interfacezoo.ScheduleVet;
 import org.solvd.zoo.other.CalenderDate;
 
 //This class is a parent class and descript people who work in the zoo
-public final class Employee implements Feed, Cleaning {
+public final class Employee implements Feed, Cleaning , ScheduleVet {
     //field
     private String firstName;
     private String lastName;
@@ -56,6 +57,20 @@ public final class Employee implements Feed, Cleaning {
 
     @Override
     public void feed() {
+
+    }
+    @Override
+    public void schedulVetApoitment() {
+
+    }
+
+    @Override
+    public void reschedulVetAppoitment() {
+
+    }
+
+    @Override
+    public void scheduleSeriesOfVetApoitment() {
 
     }
 

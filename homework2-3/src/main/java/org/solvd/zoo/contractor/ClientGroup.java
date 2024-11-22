@@ -11,11 +11,6 @@ public final class ClientGroup extends Client{
 
     //constructor
 
-    public ClientGroup(String name, CalenderDate calenderDate) {
-        this.name = name;
-        this.calenderDate = calenderDate;
-    }
-
     public ClientGroup(Date buyDate, int count, String name, CalenderDate calenderDate) {
         super(buyDate, count);
         this.name = name;
@@ -24,6 +19,10 @@ public final class ClientGroup extends Client{
 
     public ClientGroup(Date buyDate, int count) {
         super(buyDate, count);
+    }
+
+    public ClientGroup(Date buyDate, int count, TicketType ticketType) {
+        super(buyDate, count, ticketType);
     }
     //methode
 

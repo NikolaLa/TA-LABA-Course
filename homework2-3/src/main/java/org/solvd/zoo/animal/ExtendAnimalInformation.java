@@ -57,12 +57,12 @@ public abstract class ExtendAnimalInformation {
         this.measurment = measurment;
     }
 
-    public int getAgeMOnth() {
-        return ageMOnth;
+    public int getAgeMonth() {
+        return ageMonth;
     }
 
-    public void setAgeMOnth(int ageMOnth) {
-        this.ageMOnth = ageMOnth;
+    public void setAgeMOnth(int ageMonth) {
+        this.ageMonth = ageMonth;
     }
 
     public WaterType getWaterType() {

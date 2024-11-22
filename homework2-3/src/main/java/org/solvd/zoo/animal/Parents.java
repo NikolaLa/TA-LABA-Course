@@ -9,15 +9,16 @@ public abstract class Parents {
     //Vet vet; // optional part of Vet class
 
     private int ageMonth;
-    private Date birthday;
-    private String femaleName;
-    private String femaleWhichZoo;
-    private String maleName;
-    private String maleWhichZoo;
+    private static Date birthday;
+    private static String femaleName;
+    private static String femaleWhichZoo;
+    private static String maleName;
+    private static String maleWhichZoo;
 
     //Constructor
-    public Parents()
+    public Parents(Date birthday)
     {
+        this.birthday = birthday;
         this.ageMonth = 0;
         this.femaleName = "uknown";
         this.maleName ="uknown";

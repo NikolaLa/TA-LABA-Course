@@ -1,9 +1,11 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.ScheduleVet;
+
 import java.util.Objects;
 
 //Class that contain information about Vets that visit the zoo
-public class Vet {
+public class Vet implements ScheduleVet {
     //fields
     private static int id;
     private String firstName;
@@ -55,6 +57,20 @@ public class Vet {
     public void giveMedicine(){
 
     }
+    @Override
+    public void schedulVetApoitment() {
+
+    }
+
+    @Override
+    public void reschedulVetAppoitment() {
+
+    }
+
+    @Override
+    public void scheduleSeriesOfVetApoitment() {
+
+    }
 
     public int getId() {
         return id;
@@ -95,4 +111,5 @@ public class Vet {
     public void setDescriptionSpecialization(String descriptionSpecialization) {
         this.descriptionSpecialization = descriptionSpecialization;
     }
+
 }

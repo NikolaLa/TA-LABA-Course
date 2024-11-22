@@ -13,7 +13,7 @@ public final class Mammal extends AnimalBasicInfo {
         this.furType = furType;
     }
 
-    public Mammal(String name, String howMany, String furType) {
+    public Mammal(String name, int howMany, String furType) {
         super(name, howMany);
         this.furType = furType;
     }

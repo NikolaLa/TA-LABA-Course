@@ -1,23 +1,35 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.Pay;
+
 import java.util.Date;
 
-public class Client {
+public class Client implements Pay {
     //field
-    private Date buyDate;
-    private int count;
+    protected Date buyDate;
+    protected int count;
     private TicketType ticketType;
 
     //constructor
 
-    public Client() {
+    public Client(Date buyDate, int count) {
     }
 
-    public Client(Date buyDate, int count){
+    public Client(Date buyDate, int count, TicketType ticketType) {
         this.buyDate = buyDate;
         this.count = count;
+        this.ticketType = ticketType;
     }
 
+    @Override
+    public void pay() {
+        System.out.println("Pay for ticket");
+    }
+
+    @Override
+    public void receivePay() {
+        System.out.println("Pay back the ticket that cannot be used");
+    }
     //methode
 
     public Date getBuyDate() {
@@ -35,4 +47,5 @@ public class Client {
     public void setCount(int count) {
         this.count = count;
     }
+
 }

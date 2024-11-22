@@ -4,8 +4,8 @@ import java.util.*;
 
 public abstract class Classification{
     //field
-    protected String domain;
-    protected String kigdom;
+    protected final String domain = "Eukarya";
+    protected final String kigdom = "Animalia";
     protected String phylum;
     protected String clada;
     protected String classAnimal;
@@ -15,9 +15,7 @@ public abstract class Classification{
     public Classification() {
     }
 
-    public Classification(String domain, String kigdom, String phylum, String clada, String classAnimal) {
-        this.domain = domain;
-        this.kigdom = kigdom;
+    public Classification(String domain, String phylum, String clada, String classAnimal) {
         this.phylum = phylum;
         this.clada = clada;
         this.classAnimal = classAnimal;
@@ -30,16 +28,9 @@ public abstract class Classification{
         return domain;
     }
 
-    public void setDomain(String domain) {
-        this.domain = domain;
-    }
 
     public String getKigdom() {
         return kigdom;
-    }
-
-    public void setKigdom(String kigdom) {
-        this.kigdom = kigdom;
     }
 
     public String getPhylum() {

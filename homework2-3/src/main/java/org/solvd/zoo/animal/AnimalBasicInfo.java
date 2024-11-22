@@ -10,27 +10,29 @@ import java.util.Objects;
 //Animals in the Zoo Child Class of PlacesInZoo
 public class AnimalBasicInfo implements Feed {
     //field
-    private static int id;
+    private static int idCount = 0;
+    private int id;
     protected String name;
     protected String petName;
     protected boolean inZoo;
     AnimalCategory animalCategory;
     ExtendAnimalInformation extendAnimalInformation;
     Parents parents;
+    
     //construction
     public AnimalBasicInfo() {
-        id = id++; // should count next
+        this.id = idCount++;
         this.name = "default";
         this.inZoo = true ;
     }
 
-    public AnimalBasicInfo( String name, String howMany){
+    public AnimalBasicInfo( String name, int howMany){
         id = id++; // should count next
         this.name = name;
         this.inZoo = true ;
     }
 
-    public AnimalBasicInfo(String name, String petName, String howMany, boolean inZoo) {
+    public AnimalBasicInfo(String name, String petName, int howMany, boolean inZoo) {
         this.name = name;
         this.petName = petName;
         this.inZoo = inZoo;
@@ -73,11 +75,11 @@ public class AnimalBasicInfo implements Feed {
         return Objects.hash(id, name, inZoo);
     }
 
-    public int getId(){
-        return id;
+    @Override
+    public void feed() {
+        System.out.println("Animal is hungry feed the animal");
     }
-    public int setId(int id){
-        this.id = id;
+    public int getId(){
         return id;
     }
 
@@ -89,10 +91,7 @@ public class AnimalBasicInfo implements Feed {
         this.inZoo = inZoo;
     }
 
-    @Override
-    public void feed() {
 
-    }
 
 
 }

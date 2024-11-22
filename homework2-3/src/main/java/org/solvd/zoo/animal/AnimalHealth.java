@@ -1,8 +1,9 @@
 package org.solvd.zoo.animal;
 
 import org.solvd.zoo.contractor.Vet;
+import org.solvd.zoo.interfacezoo.ScheduleVet;
 
-public class AnimalHealth extends Vet {
+public class AnimalHealth extends Vet implements ScheduleVet {
     //fields
     private static int idCount = 0;
     private int id;
@@ -46,5 +47,20 @@ public class AnimalHealth extends Vet {
 
     public void setMedicine(String medicine) {
         this.medicine = medicine;
+    }
+
+    @Override
+    public void schedulVetApoitment() {
+
+    }
+
+    @Override
+    public void reschedulVetAppoitment() {
+
+    }
+
+    @Override
+    public void scheduleSeriesOfVetApoitment() {
+
     }
 }

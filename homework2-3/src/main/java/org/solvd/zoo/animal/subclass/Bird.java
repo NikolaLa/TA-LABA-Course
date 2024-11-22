@@ -1,23 +1,37 @@
 package org.solvd.zoo.animal.subclass;
 
 import org.solvd.zoo.animal.AnimalBasicInfo;
-import org.solvd.zoo.animal.Parents;
 import org.solvd.zoo.animal.subclass.animalenum.Beaks;
-
-import java.util.BitSet;
+import org.solvd.zoo.animal.subclass.animalenum.LocationOfNest;
 
 public final class Bird extends AnimalBasicInfo{
     //field
-    private String locationNest;
+    private LocationOfNest locationNest;
     private Beaks beaks;
     //Parents parent; // can have parents
 
     //construct
     public Bird(){
         Beaks beaks = this.beaks.NONE;
-        this.locationNest = "default";
+        LocationOfNest location = this.locationNest;
     }
 
+    public Bird(LocationOfNest locationNest, Beaks beaks) {
+        this.locationNest = locationNest;
+        this.beaks = beaks;
+    }
+
+    public Bird(String name, int howMany, LocationOfNest locationNest, Beaks beaks) {
+        super(name, howMany);
+        this.locationNest = locationNest;
+        this.beaks = beaks;
+    }
+
+    public Bird(String name, String petName, int howMany, boolean inZoo, LocationOfNest locationNest, Beaks beaks) {
+        super(name, petName, howMany, inZoo);
+        this.locationNest = locationNest;
+        this.beaks = beaks;
+    }
 
     @Override
     public String getName() {
@@ -29,21 +43,21 @@ public final class Bird extends AnimalBasicInfo{
         return "";
     }
 
-    public Bird(String locationNest){
+    public Bird( LocationOfNest locationNest){
     this.locationNest = locationNest;
     }
 
-    public Bird(String name, String howMany, String locationNest) {
+    public Bird(String name, int howMany, LocationOfNest locationNest) {
         super(name, howMany);
         this.locationNest = locationNest;
     }
     //methode
 
-    public String getLocationNest() {
+    public LocationOfNest getLocationNest() {
         return locationNest;
     }
 
-    public void setLocationNest(String locationNest) {
+    public void setLocationNest(LocationOfNest locationNest) {
         this.locationNest = locationNest;
     }
 }
