@@ -1,6 +1,6 @@
 # TA-LABA-Course
 
-# Homework \space  nr \space  2\- \space 3 \space 4\space }
+# Homework nr  2, 3, 4 }
 # Theme Zoo
 ## Zoo Requirement WIP
 - Place in Zoo
