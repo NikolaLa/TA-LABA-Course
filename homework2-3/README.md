@@ -1,6 +1,6 @@
 # TA-LABA-Course
 
-#  $${\color{orange}Homework \space  nr \space  2\- \space 3 \space }$$
+# Homework \space  nr \space  2\- \space 3 \space 4\space }
 # Theme Zoo
 ## Zoo Requirement WIP
 - Place in Zoo
@@ -116,17 +116,7 @@
 
 
 ## Diagram WIP
-### releated to buying ware for Zoo
-![image](https://github.com/user-attachments/assets/4bfdd3ee-2436-4a2b-8617-ef56b4831e61)
-
-### realated to animals that are in the zoo and they needs
-![image](https://github.com/user-attachments/assets/5002c299-584a-4cd3-91e7-f44b0b94711d)
-
-### other
-![image](https://github.com/user-attachments/assets/942f5e63-8280-4b01-a398-f5bd7e691b39)
-
 ### Whole diagram
-![image](https://github.com/user-attachments/assets/06e2fdad-373d-4d0f-93cc-f88648805416)
-
+![test](https://github.com/user-attachments/assets/3980728f-1239-4b00-8a1c-53f07bbd0bd3)
 
 
