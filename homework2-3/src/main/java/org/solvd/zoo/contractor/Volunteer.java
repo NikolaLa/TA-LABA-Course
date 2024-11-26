@@ -44,12 +44,12 @@ public final class Volunteer extends ContractorInfo implements Clean {
     }
 
     @Override
-    public void setVacation() {
+    public void schedule() {
 
     }
 
     @Override
-    public void getVacation() {
+    public void reschedule() {
 
     }
     public String getBenefits() {

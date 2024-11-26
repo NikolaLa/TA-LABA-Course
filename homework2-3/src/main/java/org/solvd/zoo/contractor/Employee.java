@@ -2,10 +2,11 @@ package org.solvd.zoo.contractor;
 
 import org.solvd.zoo.interfacezoo.Clean;
 import org.solvd.zoo.interfacezoo.Feed;
-import org.solvd.zoo.interfacezoo.ScheduleVet;
+import org.solvd.zoo.interfacezoo.ReceivePay;
+import org.solvd.zoo.interfacezoo.Schedulable;
 
 //This class is a parent class and descript people who work in the zoo
-public final class Employee implements Feed, Clean, ScheduleVet {
+public final class Employee implements Feed, Clean, Schedulable , ReceivePay {
     //field
     private String firstName;
     private String lastName;
@@ -56,20 +57,7 @@ public final class Employee implements Feed, Clean, ScheduleVet {
     public void feed() {
 
     }
-    @Override
-    public void schedulVetApoitment() {
 
-    }
-
-    @Override
-    public void reschedulVetAppoitment() {
-
-    }
-
-    @Override
-    public void scheduleSeriesOfVetApoitment() {
-
-    }
 
     public String getFirstName() {
         return firstName;
@@ -112,4 +100,18 @@ public final class Employee implements Feed, Clean, ScheduleVet {
     }
 
 
+    @Override
+    public void schedule() {
+
+    }
+
+    @Override
+    public void reschedule() {
+
+    }
+
+    @Override
+    public void receivePay(int number, int payAmount) {
+
+    }
 }

@@ -1,10 +1,11 @@
 package org.solvd.zoo.contractor;
 
 import org.solvd.zoo.interfacezoo.PayFor;
+import org.solvd.zoo.interfacezoo.ReceivePay;
 
 import java.time.LocalDate;
 
-public class Client implements PayFor {
+public class Client implements PayFor, ReceivePay {
     //field
     protected LocalDate buyDate;
     protected int count;
@@ -22,10 +23,6 @@ public class Client implements PayFor {
 
     }
 
-    @Override
-    public void receivePay(int number, int payAmount) {
-
-    }
 
     //methode
 
@@ -54,4 +51,6 @@ public class Client implements PayFor {
         this.count = count;
     }
 
+    public void receivePay(int number, int payAmount) {
+    }
 }

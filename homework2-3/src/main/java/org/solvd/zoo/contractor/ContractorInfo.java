@@ -1,12 +1,12 @@
 package org.solvd.zoo.contractor;
 
 import org.solvd.zoo.interfacezoo.Clean;
-import org.solvd.zoo.interfacezoo.ScheduleVacation;
+import org.solvd.zoo.interfacezoo.Schedulable;
 
 import java.util.Date;
 import java.util.Objects;
 
-public abstract class ContractorInfo implements Clean, ScheduleVacation {
+public abstract class ContractorInfo implements Clean, Schedulable {
      // fields
      private String firstName;
      private String lastName;

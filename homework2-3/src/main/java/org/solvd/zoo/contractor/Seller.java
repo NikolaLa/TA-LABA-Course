@@ -1,8 +1,10 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.ReceivePay;
+
 import java.util.Objects;
 
-public class Seller {
+public class Seller implements ReceivePay {
     //field
     private String name;
     private Account account;
@@ -62,5 +64,10 @@ public class Seller {
 
     public void setPayAmount(int payAmount) {
         this.payAmount = payAmount;
+    }
+
+    @Override
+    public void receivePay(int number, int payAmount) {
+
     }
 }

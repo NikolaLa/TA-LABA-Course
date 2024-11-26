@@ -2,11 +2,11 @@
 package org.solvd.zoo.other;
 
 import org.solvd.zoo.contractor.Vet;
-import org.solvd.zoo.interfacezoo.ScheduleEvent;
+import org.solvd.zoo.interfacezoo.Schedulable;
 
 import java.util.Date;
 
-public class CalenderDate implements ScheduleEvent {
+public class CalenderDate implements Schedulable {
     //state
     public Date dateTime;
     public String name;
@@ -43,8 +43,14 @@ public class CalenderDate implements ScheduleEvent {
         this.name = name;
     }
 
+
     @Override
-    public void setFestivalEvent() {
+    public void schedule() {
+
+    }
+
+    @Override
+    public void reschedule() {
 
     }
 }

@@ -1,11 +1,12 @@
 package org.solvd.zoo.contractor;
 
 import org.solvd.zoo.interfacezoo.PayFor;
+import org.solvd.zoo.interfacezoo.ReceivePay;
 import org.solvd.zoo.other.CalenderDate;
 
 import java.time.LocalDate;
 
-public final class ClientGroup extends Client implements PayFor {
+public final class ClientGroup extends Client implements PayFor, ReceivePay {
     //field
     private String name;
     private CalenderDate calenderDate;
