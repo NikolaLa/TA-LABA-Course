@@ -1,8 +1,6 @@
 package org.solvd.zoo.animal;
 
 import org.solvd.zoo.animal.subclass.animalenum.AnimalCategory;
-import org.solvd.zoo.contractor.Vet;
-import org.solvd.zoo.interfacezoo.Cleaning;
 import org.solvd.zoo.interfacezoo.Feed;
 
 import java.util.Objects;

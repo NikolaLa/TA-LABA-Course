@@ -1,5 +1,7 @@
 package org.solvd.zoo.contractor;
 
+import java.util.Objects;
+
 public class Seller {
     //field
     private String name;
@@ -17,6 +19,26 @@ public class Seller {
     }
 //methode
 
+
+    @Override
+    public String toString() {
+        return "Seller{" +
+                "name='" + name + '\'' +
+                ", account=" + account +
+                ", payAmount=" + payAmount +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Seller seller)) return false;
+        return payAmount == seller.payAmount && Objects.equals(name, seller.name) && Objects.equals(account, seller.account);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, account, payAmount);
+    }
 
     public String getName() {
         return name;

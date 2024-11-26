@@ -1,8 +1,10 @@
 package org.solvd.zoo.ware;
 
+import org.solvd.zoo.interfacezoo.Feed;
+
 import java.util.Date;
 
-public final class Vegetable {
+public final class Vegetable implements Feed {
     //fields
     private boolean isFresh;
     private Date experientDate;
@@ -17,8 +19,9 @@ public final class Vegetable {
         this.experientDate = experientDate;
     }
     //methode
-    public void feed(){
 
+    public void feed(){
+        System.out.println("Feeding Vegies");
     }
     public boolean isFresh() {
         return isFresh;

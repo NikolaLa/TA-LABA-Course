@@ -1,34 +1,32 @@
 package org.solvd.zoo.contractor;
 
-import org.solvd.zoo.interfacezoo.Cleaning;
+import org.solvd.zoo.interfacezoo.Clean;
 import org.solvd.zoo.interfacezoo.Feed;
 import org.solvd.zoo.interfacezoo.ScheduleVet;
-import org.solvd.zoo.other.CalenderDate;
 
 //This class is a parent class and descript people who work in the zoo
-public final class Employee implements Feed, Cleaning , ScheduleVet {
+public final class Employee implements Feed, Clean, ScheduleVet {
     //field
     private String firstName;
     private String lastName;
     private String role;
     Account account;
     private short pesel;
-    CalenderDate vacation;
     //constructor
     public Employee() {
     }
-    public Employee(String firstName, String lastName, String role, Account account, short pesel, CalenderDate vacation) {
+    public Employee(String firstName, String lastName, String role, Account account, short pesel) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.role = role;
         this.account = account;
         this.pesel = pesel;
-        this.vacation = vacation;
     }
 
-    public Employee(String firstName, String lastName) {
+    public Employee(String firstName, String lastName , String role) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.role = role;
     }
 
     //methode
@@ -37,12 +35,11 @@ public final class Employee implements Feed, Cleaning , ScheduleVet {
     @Override
     public String toString() {
         return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", role='" + role + '\'' +
-                ", account=" + account +
-                ", pesel=" + pesel +
-                ", vacation=" + vacation +
+                "firstName = '" + firstName + '\'' +
+                ", lastName = '" + lastName + '\'' +
+                ", role = '" + role + '\'' +
+                ", account = " + account +
+                ", pesel = " + pesel +
                 '}';
     }
     @Override
@@ -112,14 +109,6 @@ public final class Employee implements Feed, Cleaning , ScheduleVet {
 
     public void setPesel(short pesel) {
         this.pesel = pesel;
-    }
-
-    public CalenderDate getVacation() {
-        return vacation;
-    }
-
-    public void setVacation(CalenderDate vacation) {
-        this.vacation = vacation;
     }
 
 

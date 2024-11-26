@@ -1,8 +1,8 @@
 package org.solvd.zoo.other;
 
-import org.solvd.zoo.interfacezoo.Cleaning;
+import org.solvd.zoo.interfacezoo.Clean;
 
-public class PlacesInZoo implements Cleaning {
+public class PlacesInZoo implements Clean {
     //state
     private String name;
     private String description;
@@ -24,6 +24,25 @@ public class PlacesInZoo implements Cleaning {
         this.occupateByAnimal = occupateByAnimal;
     }
     //methode
+
+    @Override
+    public void cleaning() {
+
+    }
+
+    @Override
+    public void useUtilities() {
+
+    }
+
+    @Override
+    public String toString() {
+        return "PlacesInZoo{" +
+                "name = '" + name + '\'' +
+                ", description = '" + description + '\'' +
+                ", occupateByAnimal = " + occupateByAnimal +
+                '}';
+    }
 
     public String getName() {
         return name;
@@ -49,13 +68,5 @@ public class PlacesInZoo implements Cleaning {
         this.occupateByAnimal = occupateByAnimal;
     }
 
-    @Override
-    public void cleaning() {
 
-    }
-
-    @Override
-    public void useUtilities() {
-
-    }
 }

@@ -44,11 +44,6 @@ public class CalenderDate implements ScheduleEvent {
     }
 
     @Override
-    public void setCleaningDate() {
-
-    }
-
-    @Override
     public void setFestivalEvent() {
 
     }

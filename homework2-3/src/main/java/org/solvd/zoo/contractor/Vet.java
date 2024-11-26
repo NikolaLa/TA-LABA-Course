@@ -1,11 +1,12 @@
 package org.solvd.zoo.contractor;
 
+import org.solvd.zoo.interfacezoo.PayFor;
 import org.solvd.zoo.interfacezoo.ScheduleVet;
 
 import java.util.Objects;
 
 //Class that contain information about Vets that visit the zoo
-public class Vet implements ScheduleVet {
+public class Vet implements ScheduleVet, PayFor {
     //fields
     private static int id;
     private String firstName;
@@ -34,10 +35,10 @@ public class Vet implements ScheduleVet {
     @Override
     public String toString() {
         return "Vet{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", clinicName='" + clinicName + '\'' +
-                ", descriptionSpecialization='" + descriptionSpecialization + '\'' +
+                "firstName = '" + firstName + '\'' +
+                ", lastName = '" + lastName + '\'' +
+                ", clinicName = '" + clinicName + '\'' +
+                ", description = '" + descriptionSpecialization + '\'' +
                 '}';
     }
 
@@ -69,6 +70,15 @@ public class Vet implements ScheduleVet {
 
     @Override
     public void scheduleSeriesOfVetApoitment() {
+
+    }
+    @Override
+    public void pay(int number, int payAmount) {
+
+    }
+
+    @Override
+    public void receivePay(int number, int payAmount) {
 
     }
 

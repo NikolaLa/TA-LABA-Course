@@ -1,42 +1,48 @@
 package org.solvd.zoo.contractor;
 
-import org.solvd.zoo.interfacezoo.Pay;
+import org.solvd.zoo.interfacezoo.PayFor;
 
-import java.util.Date;
+import java.time.LocalDate;
 
-public class Client implements Pay {
+public class Client implements PayFor {
     //field
-    protected Date buyDate;
+    protected LocalDate buyDate;
     protected int count;
     private TicketType ticketType;
 
     //constructor
 
-    public Client(Date buyDate, int count) {
-    }
-
-    public Client(Date buyDate, int count, TicketType ticketType) {
+    public Client(LocalDate buyDate, int count, TicketType ticketType) {
         this.buyDate = buyDate;
         this.count = count;
         this.ticketType = ticketType;
     }
-
     @Override
-    public void pay() {
-        System.out.println("Pay for ticket");
+    public void pay(int number, int payAmount) {
+
     }
 
     @Override
-    public void receivePay() {
-        System.out.println("Pay back the ticket that cannot be used");
+    public void receivePay(int number, int payAmount) {
+
     }
+
     //methode
 
-    public Date getBuyDate() {
+    @Override
+    public String toString() {
+        return "Client{" +
+                "buyDate = " + buyDate +
+                ", count = " + count +
+                ", ticketType = " + ticketType +
+                '}';
+    }
+
+    public LocalDate getBuyDate() {
         return buyDate;
     }
 
-    public void setBuyDate(Date buyDate) {
+    public void setBuyDate(LocalDate buyDate) {
         this.buyDate = buyDate;
     }
 

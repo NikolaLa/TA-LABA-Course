@@ -1,8 +1,10 @@
 package org.solvd.zoo.ware;
 
+import org.solvd.zoo.interfacezoo.Feed;
+
 import java.util.Date;
 
-public final class MeatForAnimals {
+public final class MeatForAnimals implements Feed {
     //fields
      private String typeOfMeat;
      private boolean used;
@@ -20,7 +22,10 @@ public final class MeatForAnimals {
         this.whichFreezer = whichFreezer;
     }
     //methode
-
+    @Override
+    public void feed() {
+        System.out.println("Feed Meat");
+    }
     public String getTypeOfMeat() {
         return typeOfMeat;
     }
@@ -52,4 +57,6 @@ public final class MeatForAnimals {
     public void setWhichFreezer(String whichFreezer) {
         this.whichFreezer = whichFreezer;
     }
+
+
 }

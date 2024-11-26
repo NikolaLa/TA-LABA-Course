@@ -1,10 +1,12 @@
 package org.solvd.zoo.contractor;
 
-import org.solvd.zoo.interfacezoo.Cleaning;
+import org.solvd.zoo.interfacezoo.Clean;
+import org.solvd.zoo.interfacezoo.ScheduleVacation;
 
 import java.util.Date;
+import java.util.Objects;
 
-public abstract class ContractorInfo implements Cleaning {
+public abstract class ContractorInfo implements Clean, ScheduleVacation {
      // fields
      private String firstName;
      private String lastName;
@@ -21,7 +23,27 @@ public abstract class ContractorInfo implements Cleaning {
         this.jobdescription = jobdescription;
         this.avalability = avalability;
     }
-    
+
+    @Override
+    public String toString() {
+        return "ContractorInfo{" +
+                "firstName = '" + firstName + '\'' +
+                ", lastName = '" + lastName + '\'' +
+                ", jobdescription = '" + jobdescription + '\'' +
+                ", avalability = " + avalability +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof ContractorInfo that)) return false;
+        return Objects.equals(firstName, that.firstName) && Objects.equals(lastName, that.lastName) && Objects.equals(jobdescription, that.jobdescription) && Objects.equals(avalability, that.avalability);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName, jobdescription, avalability);
+    }
 
     //methode
     public String getFirstName() {
