@@ -1,10 +1,11 @@
 package org.solvd.zoo.contractor;
 
 import org.solvd.zoo.interfacezoo.Clean;
+import org.solvd.zoo.interfacezoo.Feed;
 
 import java.util.Date;
 
-public final class Volunteer extends ContractorInfo implements Clean {
+public final class Volunteer extends ContractorInfo implements Clean , Feed {
     //fields
     private String benefits;
     private String description;
@@ -69,4 +70,8 @@ public final class Volunteer extends ContractorInfo implements Clean {
     }
 
 
+    @Override
+    public void feed() {
+
+    }
 }
